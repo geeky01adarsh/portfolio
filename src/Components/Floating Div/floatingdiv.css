@@ -1,0 +1,28 @@
+.floatingdiv{
+    justify-content: space-around;
+    display: flex;
+    background: white;
+    box-shadow: var(--boxShadow);
+    border-radius: 17px;
+    align-items: center;
+    padding: 0 13px 0 0;
+    height: 4.5rem;
+    /* background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%); */
+  box-shadow: 0px 20px 24px 3px rgba(237, 178, 75, 0.42);
+    /* left: 19%; */
+}
+
+.floatingdiv>img{
+    transform: scale(0.4);
+    margin: 0;
+    padding: 0;
+}
+.floatingdiv>span{
+    padding: 0;
+}
+
+.floatingdiv{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: black !important;
+}

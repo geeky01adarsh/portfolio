@@ -1,0 +1,47 @@
+import React from 'react'
+import './Project.css';
+import {Swiper, SwiperSlide} from 'swiper/react';
+import proj1 from '../../img/proj1.png'
+import proj2 from '../../img/proj2.png'
+import proj3 from '../../img/proj3.png'
+import {Pagination} from 'swiper';
+import 'swiper/css/pagination'
+import 'swiper/css'
+import { themeContext } from '../../Context';
+import {useContext} from 'react';
+
+const Project = () => {
+  const theme= useContext(themeContext);
+  const darkmode = theme.state.darkMode
+
+  return (
+    <>
+        <div className="project" id='proj_sec'>
+            <span style={{color:darkmode?'white':''}}>
+            My Recent Projects
+            </span>
+            
+
+            <Swiper
+            
+            slidesPerView={2}
+            modules={[Pagination]}
+            pagination={{clickable: true}}
+            grabCursor={true}
+            className='project-slider'>
+                <SwiperSlide>
+                    <a href='www.example.com'><img src={proj1} alt="" className='spr-img' /></a>
+                </SwiperSlide>
+                <SwiperSlide>
+                <a href='www.example.com'><img src={proj2} alt="" className='spr-img'/></a>
+                </SwiperSlide>
+                <SwiperSlide>
+                <a href='www.example.com'> <img src={proj3} alt="" className='spr-img'/></a>
+                </SwiperSlide>
+            </Swiper>
+        </div>
+    </>
+  )
+}
+
+export default Project

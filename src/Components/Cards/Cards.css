@@ -1,0 +1,49 @@
+.card{
+    width: 12rem; 
+     height: 15rem;
+     position: absolute;
+     display: flex;
+     flex-direction: column;
+     /* gap:1rem; */
+     align-items: center;
+     text-align: center;
+     background-color: rgba(255, 255, 255, 0.26);
+     /* background-color: aqua; */
+     border: 7px solid var(--orangeCard);
+     border-radius: 20px;
+     box-shadow: var(--boxShadow);
+     padding: 0 26px 2rem 26px;
+
+}
+
+.card>:nth-child(1){
+    transform: scale(0.7);
+    /* margin-bottom: 1rem; */
+}
+
+.ClassTitle{
+    color: var(--black);
+    font-size: 1.5rem;
+    margin: 5px 0 5px 0;
+}
+
+.c-skills{
+    color: var(--gray);
+    /* color: yellow; */
+    margin: 5px 0 5px 0;
+}
+
+.c-btn{
+    background-color: #ffffff;
+    border: none;
+    box-shadow: 0px 19px 60px rgba(0,0,0, 0.08);
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+
+}
+
+.c-btn:hover{
+    cursor: pointer;
+    color: var(--orange);
+}

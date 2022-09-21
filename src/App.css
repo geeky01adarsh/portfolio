@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: Gumela;
+  src: url('./fonts/Gumela\ Regular.otf');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  font-family: 'Gumela';
+  font-weight: 500;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  margin: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+:root
+{
+  --yellow: #F5C32C;
+    --orange : #FCA61F;
+    --black : #242D49;
+    --gray : #788097;
+    --blueCard : #DDF8FE;
+    --purple: rgb(238 210 255);
+    --boxShadow : 0px 19px 60px rgb(0 0 0 / 8%);
+    --orangeCard: rgba(252, 166, 31, 0.45);
+    --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+}
+
+.App{
+    padding: 0.5rem 3.5rem;
+    overflow: hidden;
+    color: var(--black);    
+}
+
+
+
+
+  
+.button{
+  border-radius: 34px;
+  border: none;
   color: white;
+  font-size: 16px;
+  padding: 11px 26px 11px 26px;
+  background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
+  box-shadow: 0px 20px 24px 3px rgba(251, 161, 40, 0.42);
+}  
+
+.button:hover{
+  background: #ffffff;
+  color: var(--orange); 
+  cursor: pointer;
+  border: 1px solid;
+  border-color: var(--orange);
 }
 
-.App-link {
-  color: #61dafb;
+
+@media screen and (max-width: 820px) {
+  .App{
+    padding: 0.5rem 1rem;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 850px) {
+  .App{
+    padding: 0.5rem 1rem;
   }
-  to {
-    transform: rotate(360deg);
-  }
+  
 }

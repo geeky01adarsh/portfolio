@@ -1,0 +1,75 @@
+.about{
+    display: flex;
+    height: 100vh;
+    padding: 0 3rem 0 3rem;
+    margin: 6rem 0 0rem 0;
+}
+
+.left{
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.left>:nth-child(1){
+    color: var(--black);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.left>:nth-child(2){
+    font-weight: normal;
+    color: var(--gray);
+    font-size: 1rem;
+    
+}
+
+.right-cards{
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+    color: aliceblue;
+}
+
+
+.card1{
+    position: absolute;
+    left: 18rem;
+    top: -2rem;
+}
+
+.card2{
+    position: absolute;
+    top: 16rem;
+}
+
+.card3{
+    position: absolute;
+    top:20rem;
+    left: 18rem;
+}
+
+@media screen and (max-width: 820px){
+    .about{
+        margin-top: 0;
+        flex-direction: column;
+        gap: 5rem;
+        height: 66rem;
+        padding: 0;
+    }
+    .right-cards{
+        display: flex;
+        flex-direction: column;
+        gap: 17rem;
+        left:8.8%;
+        
+    }
+    .right-cards>*{
+        position: static;
+        margin-top: 2rem;
+    }
+}
