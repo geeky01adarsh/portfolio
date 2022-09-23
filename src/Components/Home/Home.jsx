@@ -6,12 +6,11 @@ import boy from "../../img/boy1.png";
 import glassesimoji from "../../img/glassesimoji.png";
 import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
-import github from "../../img/github.png";
-import linkedin from "../../img/linkedin.png";
-import instagram from "../../img/instagram.png";
 import FloatingDiv from "../Floating Div/FloatingDiv";
-import Loader from "react-loaders";
 import UilGithub from "@iconscout/react-unicons/icons/uil-github";
+import UilLinkedin from "@iconscout/react-unicons/icons/uil-linkedin";
+import UilInstagram from "@iconscout/react-unicons/icons/uil-instagram";
+
 import { themeContext } from "../../Context";
 import { useContext } from "react";
 import { motion } from "framer-motion";
@@ -58,21 +57,21 @@ const Home = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <img src={github} alt="Github" />
+              <UilGithub size={"5rem"} color={"var(--yellow)"} className="clk-img"/>
             </a>
             <a
               href="https://www.linkedin.com/in/geeky01adarsh/"
               target="_blank"
               rel="noreferrer"
             >
-              <img src={linkedin} alt="LinkedIn" />
+              <UilLinkedin size={"4.65rem"} color={"var(--yellow)"} className="clk-img"/>
             </a>
             <a
               href="http://www.instagram.com/geeky01adarsh"
               target="_blank"
               rel="noreferrer"
             >
-              <img src={instagram} alt="Instagram" />
+              <UilInstagram size={"4.65rem"} color={"var(--yellow)"} className="clk-img"/>
             </a>
           </div>
         </div>
@@ -92,7 +91,7 @@ const Home = () => {
           />
 
           <motion.div
-            initial={{ left: "90%" }}
+            initial={{ left: "100%" }}
             whileInView={{ left: "75%" }}
             transition={transition}
             className="floating-div1"

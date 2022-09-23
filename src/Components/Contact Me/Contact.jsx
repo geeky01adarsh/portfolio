@@ -3,15 +3,12 @@ import "./Contact.css";
 import emailjs from "@emailjs/browser";
 import { themeContext } from "../../Context";
 
-
 const Contact = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
 
-  
-
   const form = useRef();
-  const [done, setDone] = useState(false)
+  const [done, setDone] = useState(false);
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -36,26 +33,38 @@ const Contact = () => {
 
   return (
     <div className="contact-me" id="contact">
-      {/* left side copy and paste from work section */}
       <div className="c-left">
         <div className="awesome">
-          {/* darkMode */}
-          <span style={{color: darkMode?'white': ''}}>Get in Touch</span>
-          <span>Contact me</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Get in Touch</span>
+          <span id="c-me">Contact me</span>
         </div>
       </div>
-      {/* right side form */}
-        <form ref={form} onSubmit={sendEmail} >
-      <div className="c-right">
-          <input type="text" name="user_name" className="user"  placeholder="Name" required/>
-          <input type="email" name="user_email" className="user" placeholder="Email" required/>
-          <textarea name="message" className="user" placeholder="Message" required/>
-          <input type="submit" id="ta" value="Send" className="button"/>
+      <form ref={form} onSubmit={sendEmail}>
+        <div className="c-right">
+          <input
+            type="text"
+            name="user_name"
+            className="user"
+            placeholder="Name"
+            required
+          />
+          <input
+            type="email"
+            name="user_email"
+            className="user"
+            placeholder="Email"
+            required
+          />
+          <textarea
+            name="message"
+            className="user"
+            placeholder="Message"
+            required
+          />
+          <input type="submit" id="ta" value="Send" className="button" />
           <span>{done && "Thanks for Contacting me"}</span>
-          
-          
-      </div>
-        </form>
+        </div>
+      </form>
     </div>
   );
 };

@@ -16,7 +16,7 @@ function App() {
 
 
   return (
-    <>
+    
       <div className="App"
       style={{
         background: darkmode? 'var(--black)':'',
@@ -30,7 +30,7 @@ function App() {
         <Contact/>
         <Footer/>
       </div>
-    </>
+    
   );
 }
 

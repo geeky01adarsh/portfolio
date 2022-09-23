@@ -16,8 +16,10 @@ const Project = () => {
 
   return (
     <>
-        <div className="project" id='proj_sec'>
+        <div className="project" >
+            <div id="proj_sec">
             <span style={{color:darkmode?'white':''}}>
+        
             My Recent Projects
             </span>
             
@@ -38,7 +40,9 @@ const Project = () => {
                 <SwiperSlide>
                 <a href='www.example.com'> <img src={proj3} alt="" className='spr-img'/></a>
                 </SwiperSlide>
+                <SwiperSlide></SwiperSlide>
             </Swiper>
+            </div>
         </div>
     </>
   )

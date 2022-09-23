@@ -35,3 +35,23 @@
     transform: scale(.7);
   }
 }
+
+
+@media screen and (min-width:500px) and (max-width:1000px){
+  .footer{
+    transform: scale(1) !important;
+    margin-top: 2rem;
+  }
+  
+  .f-content{
+    text-align: center;
+    margin-left: 1rem;
+    /* margin-top: 5rem; */
+  }
+
+  .f-icons{
+    transform: scale(0.8);
+    margin-top: -2rem;
+  }
+  
+}

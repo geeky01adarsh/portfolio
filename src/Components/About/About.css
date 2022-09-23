@@ -26,6 +26,12 @@
     
 }
 
+.greet{
+    display: inline-block;
+    padding: 1px 0;
+    margin: 1px 0;
+}
+
 .right-cards{
     display: flex;
     position: relative;
@@ -53,7 +59,7 @@
     left: 18rem;
 }
 
-@media screen and (max-width: 820px){
+@media screen and (max-width: 500px){
     .about{
         margin-top: 0;
         flex-direction: column;
@@ -71,5 +77,12 @@
     .right-cards>*{
         position: static;
         margin-top: 2rem;
+    }
+}
+
+
+@media screen and (min-width:500px) and (max-width:1000px){
+    .about{
+        margin-top: 5rem;
     }
 }
