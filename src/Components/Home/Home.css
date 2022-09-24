@@ -2,7 +2,7 @@
     display: flex;
     height: 77vh;
     margin-top: 6rem;
-    padding-top: 3rem;
+    padding-top: 5rem;
 }
 
 .i-left{
@@ -25,6 +25,7 @@
     flex-direction: column;
 }
 
+
 .i-name>:nth-child(1){
     color: var(--black);
     font-weight: bold;
@@ -37,7 +38,7 @@
     font-size: 3rem;
 }
 
-.i-name>:nth-child(3){
+.n3-child{
     margin-top: 10px;
     color: var(--gray);
     margin-top: 10px;
@@ -116,6 +117,16 @@
 
 .clk-img:hover{
     fill:var(--orange);
+}
+
+.animated-text:hover{
+    animation: bounceIn 1s 1s;
+}
+
+.animated-text>*:hover{
+    color: var(--yellow);
+    font-size: larger;
+    cursor:pointer;
 }
 
 .smart{

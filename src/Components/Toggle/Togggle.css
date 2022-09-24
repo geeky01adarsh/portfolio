@@ -1,5 +1,6 @@
 .toggle{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     border: 3px solid var(--orange);
     border-radius: 1rem;
@@ -19,3 +20,23 @@
     background-color: var(--orange);
     position: absolute;
 }
+
+.toggle-right-loader{
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    padding: auto;
+    margin-left: 12rem;
+    z-index: 1;
+}
+
+
+@media screen and (max-width:500px) {
+    .toggle-right-loader{
+        /* display: none; */
+        margin-left: -6rem;
+        padding: auto;
+        margin-top: 2rem;
+    }
+}
+

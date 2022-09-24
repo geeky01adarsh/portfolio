@@ -2,6 +2,7 @@
     height: 10vh;
     display: flex;
     justify-content: space-between;
+    margin-bottom: -5rem;
 }
 
 
@@ -16,6 +17,18 @@
     font-size: 1.3rem;
     font-weight: bold;
     font-style: italic;
+}
+
+.n-name:hover{
+    cursor:pointer;
+    color: var(--yellow);
+    font-size: 1.5rem;
+    animation: rotate 2s 1;
+}
+
+
+@keyframes rotate{
+    50% { transform: rotate(360deg);}
 }
 
 .nav-right{
@@ -36,7 +49,11 @@
     gap: 2rem;
     margin-right: 4rem;
     list-style-type: none;
-    
+}
+
+li{
+    font-weight:400;
+    font-size: 20px;
 }
 
 li:hover{

@@ -10,12 +10,19 @@ import FloatingDiv from "../Floating Div/FloatingDiv";
 import UilGithub from "@iconscout/react-unicons/icons/uil-github";
 import UilLinkedin from "@iconscout/react-unicons/icons/uil-linkedin";
 import UilInstagram from "@iconscout/react-unicons/icons/uil-instagram";
-import './Home.scss';
+import Loader from "react-loaders";
+
+import "../../App.scss";
+// import "~loaders.css/src/animations/pacman.scss"
 
 import { themeContext } from "../../Context";
 import { useContext } from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
+
+
+
+
 
 const skills = [
   {
@@ -30,51 +37,120 @@ const skills = [
   },
 ];
 
+const container = {
+  hidden: { opacity: 0 },
+  show: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.1,
+    },
+  },
+};
+
+const item = {
+  hidden: { opacity: 0 },
+  show: { opacity: 1 },
+};
+
 const Home = () => {
   const theme = useContext(themeContext);
   const darkmode = theme.state.darkMode;
   const transition = { duration: 3, type: "spring" };
+  const animatedText = [
+    "A",
+    "d",
+    "a",
+    "r",
+    "s",
+    "h",
+    " ",
+    "N",
+    "a",
+    "v",
+    "n",
+    "e",
+    "e",
+    "t",
+    " ",
+    "S",
+    "i",
+    "n",
+    "h",
+    "a",
+  ];
+
+  
 
   return (
     <>
+     
       <div className="home" id="home">
-      
         <div className="i-left">
           <div className="i-name">
             <span style={{ color: darkmode ? "white" : "" }}>Hey! I am</span>
-            <span>Adarsh Navneet Sinha</span>
-            <span>
+            <motion.span
+              variants={container}
+              initial="hidden"
+              animate="show"
+              className="animated-text"
+            >
+              {animatedText.map((e) => {
+                return <motion.span variants={item}>{e}</motion.span>;
+              })}
+            </motion.span>
+            <span className="n3-child">
               MERN Developer && Competitive Programmer with a kanck of learning
               and exploring new things...
             </span>
           </div>
           <Link spy={true} to="contact" smooth={true}>
-            <div className="btn">
+            <div>
               <button className="button i-button i-btn2">Get in touch</button>
             </div>
           </Link>
           <div className="i-img">
-            <a
+            <motion.a
+              whileHover={{ scale: 1.2 }}
+              onHoverStart={(e) => {}}
+              onHoverEnd={(e) => {}}
               href="http://www.github.com/geeky01adarsh"
               target="_blank"
               rel="noreferrer"
             >
-              <UilGithub size={"5rem"} color={"var(--yellow)"} className="clk-img"/>
-            </a>
-            <a
+              <UilGithub
+                size={"5rem"}
+                color={"var(--yellow)"}
+                className="clk-img"
+              />
+            </motion.a>
+            <motion.a
+              whileHover={{ scale: 1.2 }}
+              onHoverStart={(e) => {}}
+              onHoverEnd={(e) => {}}
               href="https://www.linkedin.com/in/geeky01adarsh/"
               target="_blank"
               rel="noreferrer"
             >
-              <UilLinkedin size={"4.65rem"} color={"var(--yellow)"} className="clk-img"/>
-            </a>
-            <a
+              <UilLinkedin
+                size={"4.65rem"}
+                color={"var(--yellow)"}
+                className="clk-img"
+              />
+            </motion.a>
+            <motion.a
+              whileHover={{ scale: 1.2 }}
+              onHoverStart={(e) => {}}
+              onHoverEnd={(e) => {}}
               href="http://www.instagram.com/geeky01adarsh"
               target="_blank"
               rel="noreferrer"
             >
-              <UilInstagram size={"4.65rem"} color={"var(--yellow)"} className="clk-img"/>
-            </a>
+              <UilInstagram
+                size={"4.65rem"}
+                color={"var(--yellow)"}
+                className="clk-img"
+              />
+            </motion.a>
           </div>
         </div>
 
