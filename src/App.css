@@ -1,6 +1,6 @@
 @font-face {
   font-family: Gumela;
-  src: url('./fonts/Gumela\ Regular.otf');
+  src: url('./assests/fonts/Gumela\ Regular.otf');
 }
 
 * {
@@ -64,9 +64,23 @@ body {
   }
 }
 
+.blur {
+  position: absolute;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  background: #edd0ff;
+  filter: blur(212px);
+  z-index: -9;
+  top: -18%;
+  left: 56%;
+  filter: blur(72px);
+}
+
 @media screen and (max-width: 500px) {
   .App{
     padding: 0.5rem 0.5rem;
+
   }
   
 }
@@ -83,3 +97,4 @@ body {
     margin-top: 10rem;
   }
 }
+

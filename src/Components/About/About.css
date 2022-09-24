@@ -2,7 +2,7 @@
     display: flex;
     height: 100vh;
     padding: 0 3rem 0 3rem;
-    margin: 6rem 0 0rem 0;
+    margin: 6rem 0 -2rem 0;
 }
 
 .left{
@@ -56,7 +56,14 @@
 .card3{
     position: absolute;
     top:20rem;
-    left: 18rem;
+    left: 1rem;
+}
+
+.about-blur{
+    background: var(--yellow);
+    position: relative;
+    left: -5rem;
+    top: 30px;
 }
 
 @media screen and (max-width: 500px){
@@ -77,6 +84,9 @@
     .right-cards>*{
         position: static;
         margin-top: 2rem;
+    }
+    .about-blur{
+        display: none;
     }
 }
 

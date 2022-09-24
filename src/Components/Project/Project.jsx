@@ -1,9 +1,9 @@
 import React from 'react'
 import './Project.css';
 import {Swiper, SwiperSlide} from 'swiper/react';
-import proj1 from '../../img/proj1.png'
-import proj2 from '../../img/proj2.png'
-import proj3 from '../../img/proj3.png'
+import proj1 from '../../assests/img/proj1.png'
+import proj2 from '../../assests/img/proj2.png'
+import proj3 from '../../assests/img/proj3.png'
 import {Pagination} from 'swiper';
 import 'swiper/css/pagination'
 import 'swiper/css'

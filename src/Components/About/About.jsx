@@ -1,8 +1,8 @@
 import React from "react";
 import "./About.css";
-import HeartEmoji from "../../img/heartemoji.png";
-import Glasses from "../../img/glasses.png";
-import Humble from "../../img/humble.png";
+import HeartEmoji from "../../assests/img/heartemoji.png";
+import Glasses from "../../assests/img/glasses.png";
+import Humble from "../../assests/img/humble.png";
 import Card from "../Cards/Card";
 import resume from "./resume.pdf";
 import { themeContext } from "../../Context";
@@ -66,6 +66,7 @@ const About = () => {
         </div>
 
         <div className="right-cards">
+          <div className="blur about-blur"></div>
           <motion.div
             initial={{ top: "-4rem" }}
             whileInView={{ top: "-2rem" }}
@@ -77,7 +78,7 @@ const About = () => {
 
           <motion.div
             initial={{ left: "-5rem" }}
-            viewport={{ margin: "-14px" }}
+            viewport={{ margin: "-5px" }}
             whileInView={{ left: "0rem" }}
             transition={transition}
             className="card2"
@@ -86,8 +87,8 @@ const About = () => {
           </motion.div>
 
           <motion.div
-            initial={{ left: "30rem" }}
-            whileInView={{ left: "20rem" }}
+            initial={{ top: "0rem", left:"20px" }}
+            whileInView={{ top: "20rem", left:"20rem"}}
             transition={transition}
             className="card3"
           >

@@ -8,6 +8,7 @@ const Navbar = () => {
     <>
       <div className="n-wrapper">
         <div className="nav-left">
+          <div className="blur nav-blur" style={{background:'yellow'}}></div>
           <div className="n-name"> &lt;geeky01Adarsh/&gt;</div>
           <div className="n-toggle">
             <Toggle />

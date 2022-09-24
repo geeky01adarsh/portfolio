@@ -6,7 +6,7 @@ import { themeContext } from "../../Context";
 const Contact = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
-
+  const [user, setuser] = useState("");
   const form = useRef();
   const [done, setDone] = useState(false);
   const sendEmail = (e) => {
@@ -14,7 +14,7 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_20pw79r",
+        "service_20pw79",
         "template_wht4si9",
         form.current,
         "ICWPxkP9vkbMVlnhQ"
@@ -23,9 +23,18 @@ const Contact = () => {
         (result) => {
           console.log(result.text);
           setDone(true);
+          setuser("");
           form.current.reset();
         },
         (error) => {
+          console.log(user);
+          alert(
+            "Hey " +
+              user +
+              ",\nI am very sorry🙇‍♀️ but some error occurred😢!!! \nPlease send your mail to adarsh91094@gmail.com😃"
+          );
+          form.current.reset();
+          setuser("");
           console.log(error.text);
         }
       );
@@ -45,6 +54,8 @@ const Contact = () => {
             type="text"
             name="user_name"
             className="user"
+            onChange={(event) => setuser(event.target.value)}
+            value={user}
             placeholder="Name"
             required
           />

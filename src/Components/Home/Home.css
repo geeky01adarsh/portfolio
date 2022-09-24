@@ -2,6 +2,7 @@
     display: flex;
     height: 77vh;
     margin-top: 6rem;
+    padding-top: 3rem;
 }
 
 .i-left{
@@ -149,7 +150,7 @@
     }
     .floating-div1{
         top: -7rem;
-        left: 18rem !important;
+        left: 15rem !important;
     }
 }
 

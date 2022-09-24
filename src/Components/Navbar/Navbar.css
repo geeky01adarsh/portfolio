@@ -55,6 +55,10 @@ li:hover{
     .n-button{
         display: none;
     }
+    .nav-blur{
+        width: 8rem !important;
+        /* overflow: hidden!important;   */
+    }
 }
 
 @media screen and (min-width:500px) and (max-width:1000px){
