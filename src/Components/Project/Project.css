@@ -28,7 +28,17 @@
     width: 100%;
 }
 
-
+.proj-blur{
+    background: rgb(122, 26, 219);
+    display: flex;
+    position: absolute;
+    left: -10rem;
+    top: 10px;
+    z-index: -9999;
+    opacity: 40%;
+    padding-top: 10rem;
+    margin-top: -9rem;
+}
 
 .project-slider,
 .swiper-slide {
@@ -54,6 +64,11 @@
 @media screen and (max-width:500px) {
     .project {
         margin-top: 25rem;
+    }
+
+    .proj-blur{
+        transform: scale(0.4); 
+        /* display: none; */
     }
 
 }

@@ -64,6 +64,18 @@
     position: relative;
     left: -5rem;
     top: 30px;
+    opacity: 60%;
+}
+
+.about-blur2{
+    position: relative;
+    left: -10rem;
+    top: 10rem;
+    opacity: 40%;
+    /* height: 190rem; */
+    width: 150%;
+    height: 200%;
+    background-color: rgba(236, 40, 40, 0.545);
 }
 
 @media screen and (max-width: 500px){

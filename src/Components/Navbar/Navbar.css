@@ -74,6 +74,8 @@ li:hover{
     }
     .nav-blur{
         width: 8rem !important;
+        display: flex;
+        left: 3px !important;
         /* overflow: hidden!important;   */
     }
 }

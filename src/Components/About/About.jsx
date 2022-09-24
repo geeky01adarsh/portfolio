@@ -63,6 +63,7 @@ const About = () => {
           <a href={resume} download>
             <button className="button  a-btn">Get Resume</button>
           </a>
+          <div className="blur about-blur2" style={{background:'red'}}></div>
         </div>
 
         <div className="right-cards">
