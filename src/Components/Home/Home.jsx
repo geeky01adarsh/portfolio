@@ -11,7 +11,6 @@ import UilGithub from "@iconscout/react-unicons/icons/uil-github";
 import UilLinkedin from "@iconscout/react-unicons/icons/uil-linkedin";
 import UilInstagram from "@iconscout/react-unicons/icons/uil-instagram";
 import Loader from "react-loaders";
-
 import "../../App.scss";
 // import "~loaders.css/src/animations/pacman.scss"
 
@@ -55,7 +54,7 @@ const item = {
 const Home = () => {
   const theme = useContext(themeContext);
   const darkmode = theme.state.darkMode;
-  const transition = { duration: 3, type: "spring" };
+  const transition = { duration: 3, type: "fade-in" };
   const animatedText = [
     "A",
     "d",

@@ -1,0 +1,20 @@
+@import 'animate.css';
+
+.n3-child{
+    animation:fadeIn 0.7s 1.7s backwards;
+}
+.i-btn2{
+    animation: fadeIn 2s 2.0s backwards;
+    margin-bottom: -2px;
+}
+
+.i-img{
+    animation: fadeIn 2s 2.5s backwards;
+}
+
+
+.animated-text{
+    animation-fill-mode: both;
+ 
+}
+
