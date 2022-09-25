@@ -170,7 +170,7 @@
     .i-right{
         transform: scale(0.7);
         left: -3rem;
-        top:-40rem;
+        top:-38rem;
     }
     .i-left{
         top: 18rem;
@@ -200,7 +200,8 @@
 @media screen and (min-width:500px) and (max-width:1000px){
     .home{
         transform: scale(0.58) !important;
-      margin-top: -10px;
+      margin-top: -5px;
+      margin-bottom: -5rem;
     }
     .floating-div1{
         left: 25rem !important;
@@ -212,3 +213,10 @@
 }  
 
 
+@media screen and (min-height:1000px) and (max-height:1300px) {
+    .home{
+        height: fit-content;
+        margin-bottom: -15rem;
+    }
+
+}
