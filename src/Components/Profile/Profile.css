@@ -1,0 +1,19 @@
+.profile{
+    display: flex;
+    position: block;
+    margin-top: 10rem;
+    background-color: red;
+    height: 100vh;
+}
+
+.left-profile{
+    display: flex;
+    
+}
+
+
+.right-profile{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}

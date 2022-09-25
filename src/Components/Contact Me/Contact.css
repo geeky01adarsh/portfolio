@@ -161,7 +161,7 @@ textarea:focus {
     .contact-loader {
         display: absolute;
         margin-bottom: 7rem;
-        margin-right: 5rem;
+        margin-right: 5.5rem;
         padding: -10rem;
         /* border: 2px solid red; */
     }

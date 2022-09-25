@@ -50,7 +50,7 @@ function App() {
           <Navbar />
           <Home />
           <About />
-          {/* <div className="blur about-proj"></div> */}
+          <Profile/>
           <Project />
           <Contact />
           <Footer />

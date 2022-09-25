@@ -10,7 +10,7 @@ import FloatingDiv from "../Floating Div/FloatingDiv";
 import UilGithub from "@iconscout/react-unicons/icons/uil-github";
 import UilLinkedin from "@iconscout/react-unicons/icons/uil-linkedin";
 import UilInstagram from "@iconscout/react-unicons/icons/uil-instagram";
-import Loader from "react-loaders";
+import Typical from 'react-typical';
 import "../../App.scss";
 // import "~loaders.css/src/animations/pacman.scss"
 
@@ -78,11 +78,19 @@ const Home = () => {
     "a",
   ];
 
-  
+  const devProf = [
+    "Coding Enthusiast💪",
+    1800,
+    "React Developer😎",
+    1800,
+    "Content Writer📝",
+    1200,
+    "Competitive Programmer🤓",
+    2000,
+  ];
 
   return (
     <>
-     
       <div className="home" id="home">
         <div className="i-left">
           <div className="i-name">
@@ -98,8 +106,10 @@ const Home = () => {
               })}
             </motion.span>
             <span className="n3-child">
-              MERN Developer && Competitive Programmer with a kanck of learning
-              and exploring new things...
+              
+                <Typical loop={Infinity} steps={devProf} />
+              
+              with a kanck of learning and exploring...
             </span>
           </div>
           <Link spy={true} to="contact" smooth={true}>

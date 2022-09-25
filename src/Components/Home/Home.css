@@ -41,7 +41,9 @@
 .n3-child{
     margin-top: 10px;
     color: var(--gray);
-    margin-top: 10px;
+    font-size: 1.1rem;
+    padding: 0;
+    line-height: 3px;
 }
 
 .btn{
@@ -55,8 +57,9 @@
     /* gap: 1rem;     */
 }
 
+
 .i-img{
-    margin-top: 3rem;
+    margin-top: 1.5rem;
     display: flex;
     gap: 1rem;
 }
@@ -118,7 +121,9 @@
 .clk-img:hover{
     fill:var(--orange);
 }
-
+.animated-text{
+    margin-left: -0.5rem;
+}
 .animated-text:hover{
     animation: bounceIn 1s 1s;
 }
@@ -158,12 +163,18 @@
 @media screen and (max-width: 500px){
     .home{
         flex-direction: column;
-        height: 64rem;
+        height: 50rem;
         gap: 7rem;
+        margin-top: 10rem;
     }
     .i-right{
-        transform: scale(0.8);
+        transform: scale(0.7);
         left: -3rem;
+        top:-40rem;
+    }
+    .i-left{
+        top: 18rem;
+        transform: scale(0.83);
     }
     .i-right>:nth-child(1){
         left: -25% !important;
@@ -174,6 +185,7 @@
     .i-right>:nth-child(3){
         left: -12px !important;
     }
+    
     .floating-div2{
         top:17rem !important;
         left: 3px !important;

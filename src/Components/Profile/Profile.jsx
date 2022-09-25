@@ -1,11 +1,18 @@
 import React from 'react'
-// import x
+import './Profile.css'
 
 
 const Profile = () => {
   return (
     <>
-     This is my profile 
+      <div className="profile">
+        <div className="left-profile">
+          This is my left Profile.
+        </div>
+        <div className="right-profile">
+          This is my right Profile.
+        </div>
+     </div>
     </>
   )
 }
