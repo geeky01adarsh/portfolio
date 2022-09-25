@@ -170,9 +170,9 @@ textarea:focus {
 
 @media screen and (min-width:500px) and (max-width:1000px) {
     .contact-me {
-        gap: 15rem;
+        gap: 10rem;
         margin-top: -15rem;
-
+        margin-bottom: 3rem;
     }
 
     .c-left {
@@ -182,5 +182,12 @@ textarea:focus {
 
     .c-right {
         padding-left: 3rem;
+    }
+}
+
+@media screen and (max-height:350px) {
+    .contact-me{
+        margin-top: -10rem;
+        margin-bottom: 10rem;
     }
 }

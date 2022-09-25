@@ -49,7 +49,7 @@ const Navbar = () => {
                 smooth={true}
                 activeClass="activeClass"
               >
-                <motion.li variants={item}>Home</motion.li>
+                <motion.li variants={item} >Home</motion.li>
               </Link>
               <Link spy={true} to="about_sec" smooth={true}>
                 <motion.li variants={item}>About</motion.li>

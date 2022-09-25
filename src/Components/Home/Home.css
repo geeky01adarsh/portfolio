@@ -28,7 +28,7 @@
 
 .i-name>:nth-child(1){
     color: var(--black);
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: 2.5rem;
 }
 
@@ -187,7 +187,8 @@
 
 @media screen and (min-width:500px) and (max-width:1000px){
     .home{
-      margin-top: -15px;
+        transform: scale(0.58) !important;
+      margin-top: -10px;
     }
     .floating-div1{
         left: 25rem !important;

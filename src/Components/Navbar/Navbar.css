@@ -86,5 +86,9 @@ li:hover{
     .n-wrapper{
         padding-left: 5rem !important;
         /* border: 2px solid red; */
+        margin-top: 0.3rem;
     }
+    
+    
+   
 }

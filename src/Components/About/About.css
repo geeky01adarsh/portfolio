@@ -85,12 +85,13 @@
         gap: 5rem;
         height: 66rem;
         padding: 0;
+        text-align: center;
     }
     .right-cards{
         display: flex;
         flex-direction: column;
         gap: 17rem;
-        left:8.8%;
+        left:11%;
         
     }
     .right-cards>*{
@@ -105,6 +106,13 @@
 
 @media screen and (min-width:500px) and (max-width:1000px){
     .about{
-        margin-top: 5rem;
+        margin-bottom: 10rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-height:350px){
+    .about{
+        margin-top: 10rem;
     }
 }

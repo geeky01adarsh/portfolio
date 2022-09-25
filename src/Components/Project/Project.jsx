@@ -19,7 +19,7 @@ const Project = () => {
       <div className="blur proj-blur"></div>
         <div className="project" >
             <div id="proj_sec">
-            <span style={{color:darkmode?'white':''}}>
+            <span  className="r-proj" style={{color:darkmode?'white':''}}>
         
             My Recent Projects
             </span>
