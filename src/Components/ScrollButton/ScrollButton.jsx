@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import './ScrollButton.css'
+import arrow from '../../assests/img/arrow.svg';
+
 
 const ScrollButton = () => {
   const [visible, setVisible] = useState(false);
@@ -21,7 +24,19 @@ const ScrollButton = () => {
 
   window.addEventListener("scroll", toggleVisible);
 
-  return <Button onClick={scrollToTop}>scrollToTop</Button>;
+  return (
+    <>
+      
+        <button
+          onClick={scrollToTop}
+          style={{ display: visible ? "inline" : "none" }}
+          className="scroll-btn" 
+      >
+        <img src={arrow} alt="move-up arrow" />
+      </button>
+      
+    </>
+  );
 };
 
 export default ScrollButton;

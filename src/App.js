@@ -11,6 +11,7 @@ import { themeContext } from "./Context";
 import { useContext, useState, useEffect } from "react";
 import "./App.scss";
 import { Dna } from "react-loader-spinner";
+import ScrollButton from "./Components/ScrollButton/ScrollButton";
 // import { XlviLoader } from "react-awesome-loaders";
 
 function App() {
@@ -53,7 +54,8 @@ function App() {
           <Profile/>
           <Project />
           <Contact />
-          <Footer />
+            <Footer />
+            <ScrollButton/>
         </div>
       )}
     </>

@@ -1,0 +1,13 @@
+.scroll-btn{
+    position: fixed;
+    width: fit-content;
+    right: 10%;
+    bottom: 40px;
+    font-size: 3rem;
+    z-index: 1;
+    cursor: pointer;
+    background: transparent;
+    border: transparent;
+    transform: scale(2);
+    
+}
