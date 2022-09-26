@@ -12,6 +12,7 @@ body {
   margin: 0;
   /* overflow: hidden; */
   scrollbar-width: none;
+  margin-left: 0;
 }
 
 body::-webkit-scrollbar{
@@ -112,7 +113,7 @@ body::-webkit-scrollbar{
   .App>* {
     transform: scale(0.7) !important;
     padding: 0;
-    margin-left: -9rem !important;
+    margin-left: -10rem !important;
   }
 
   #proj-sec {

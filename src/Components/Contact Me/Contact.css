@@ -171,19 +171,19 @@ textarea:focus {
 
 @media screen and (min-width:500px) and (max-width:1000px) {
     .contact-me {
-        gap: 8rem;
+        gap: 4rem;
         margin-top: -15rem;
         margin-bottom: 3rem;
-        padding:1rem 1.3rem;
+        padding:1rem 0rem;
     }
 
     .c-left {
-        padding: 1rem;
-        margin-left: 10rem;
+        padding: 2rem;
+        margin-left: 8rem;
     }
 
     .c-right {
-        padding-left: 3rem;
+        padding-left: 5rem;
     }
 }
 

@@ -318,3 +318,12 @@
     }
 
 }
+
+
+@media screen and (max-height:500px){
+    .profile-container{
+        margin: 35rem 0 0 0;
+        /* border: 30px solid gray; */
+        padding-bottom: 18rem;
+    }
+}
