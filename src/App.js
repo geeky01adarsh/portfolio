@@ -12,6 +12,7 @@ import { useContext, useState, useEffect } from "react";
 import "./App.scss";
 import { Dna } from "react-loader-spinner";
 import ScrollButton from "./Components/ScrollButton/ScrollButton";
+import XlviLoader from "./Components/AwesomeLoader/AwesomeHandler";
 // import { XlviLoader } from "react-awesome-loaders";
 
 function App() {
@@ -51,11 +52,12 @@ function App() {
           <Navbar />
           <Home />
           <About />
-          <Profile/>
+          <Profile />
           <Project />
           <Contact />
-            <Footer />
-            <ScrollButton/>
+          <Footer />
+          <ScrollButton />
+          
         </div>
       )}
     </>

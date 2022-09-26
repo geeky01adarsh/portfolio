@@ -279,36 +279,39 @@ const XlviLoader = ({
   };
 
   return (
-    <StyledContainer
-      sizeContainer={sizeContainer}
-      background={backgound}
-      className={className}
-    >
-      <StyledBox
-        boxParams={box1Params}
-        sizeBorderRadius={sizeBorderRadius}
-        sizeBorderThickness={sizeBorderThickness}
-        borderColor={colorsToFill[0]}
-        animParams={anim1Params}
-        className="box1"
-      ></StyledBox>
-      <StyledBox
-        boxParams={box2Params}
-        sizeBorderRadius={sizeBorderRadius}
-        sizeBorderThickness={sizeBorderThickness}
-        borderColor={colorsToFill[1]}
-        animParams={anim2Params}
-        className="box2"
-      ></StyledBox>
-      <StyledBox
-        boxParams={box3Params}
-        sizeBorderRadius={sizeBorderRadius}
-        sizeBorderThickness={sizeBorderThickness}
-        borderColor={colorsToFill[2]}
-        animParams={anim3Params}
-        className="box3"
-      ></StyledBox>
-    </StyledContainer>
+    <>
+      
+      <StyledContainer
+        sizeContainer={sizeContainer}
+        background={backgound}
+        className={className}
+      >
+        <StyledBox
+          boxParams={box1Params}
+          sizeBorderRadius={sizeBorderRadius}
+          sizeBorderThickness={sizeBorderThickness}
+          borderColor={colorsToFill[0]}
+          animParams={anim1Params}
+          className="box1"
+        ></StyledBox>
+        <StyledBox
+          boxParams={box2Params}
+          sizeBorderRadius={sizeBorderRadius}
+          sizeBorderThickness={sizeBorderThickness}
+          borderColor={colorsToFill[1]}
+          animParams={anim2Params}
+          className="box2"
+        ></StyledBox>
+        <StyledBox
+          boxParams={box3Params}
+          sizeBorderRadius={sizeBorderRadius}
+          sizeBorderThickness={sizeBorderThickness}
+          borderColor={colorsToFill[2]}
+          animParams={anim3Params}
+          className="box3"
+        ></StyledBox>
+      </StyledContainer>
+    </>
   );
 };
 

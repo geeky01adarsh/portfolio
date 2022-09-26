@@ -1,4 +1,5 @@
-import './style_awesome';
+import './style_awesome.css';
+import XlviLoader from './AwesomeHandler'
 
 import React from 'react'
 

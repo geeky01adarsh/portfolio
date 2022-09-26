@@ -3,6 +3,8 @@ import Toggle from "../Toggle/Toggle";
 import "./Navbar.css";
 import { Link } from "react-scroll";
 import { motion } from "framer-motion";
+import AwesomeHandlerParent from "../AwesomeLoader/AwesomeHandlerParent";
+
 
 const container = {
   hidden: { opacity: 0 },
@@ -20,21 +22,23 @@ const item = {
 };
 
 const Navbar = () => {
-  const [loading, setLoading] = useState(false);
+  const [awesomeloader, setAwesomeLoader] = useState(false);
 
-  
-
-  
+  const handleClick = () => {
+    setAwesomeLoader(true);
+    setTimeout(() => {
+      setAwesomeLoader(false);
+    }, 2000);
+  };
 
   return (
     <>
-      
       <div className="n-wrapper">
         <div className="nav-left">
           <div className="blur nav-blur" style={{ background: "yellow" }}></div>
           <Link spy={true} to="home" smooth={true} activeClass="activeClass">
             {" "}
-            <div className="n-name"> &lt;geeky01Adarsh/&gt;</div>
+            <div className="n-name" onClick={handleClick}> &lt;geeky01Adarsh/&gt;</div>
           </Link>
           <div className="n-toggle">
             <Toggle />
@@ -49,7 +53,7 @@ const Navbar = () => {
                 smooth={true}
                 activeClass="activeClass"
               >
-                <motion.li variants={item} >Home</motion.li>
+                <motion.li variants={item}>Home</motion.li>
               </Link>
               <Link spy={true} to="about_sec" smooth={true}>
                 <motion.li variants={item}>About</motion.li>
@@ -67,6 +71,7 @@ const Navbar = () => {
           </Link>
         </div>
       </div>
+      <div>{awesomeloader && <AwesomeHandlerParent />}</div>
     </>
   );
 };

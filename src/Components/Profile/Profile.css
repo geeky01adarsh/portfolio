@@ -227,13 +227,14 @@
 
 
 /* IPAD RESPONSIVENESS */
-@media only screen and (min-width:500) and (max-width: 1110px) {
+@media only screen and (min-width:500px) and (max-width: 1110px) {
     .profile-content {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: -90rem -7rem -40rem 6rem;
+        margin: -75rem -9rem -60rem 6rem !important;
         transform: scale(1.3);
+        padding: 0 6rem 0 4rem;
 
     }
 

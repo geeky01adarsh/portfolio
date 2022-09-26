@@ -13,8 +13,3 @@
 }
 
 
-@media screen and (max-width:1110) {
-    .scroll-btn{
-        display: none;
-    }
-}
