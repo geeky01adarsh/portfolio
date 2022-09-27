@@ -9,7 +9,7 @@ const Card = ({ CardData }) => {
   const darkmode = theme.state.darkMode;
 
   return (
-    <div className="card" >
+    <div className="card">
       <img src={CardData.emoji} alt="" />
       <span className="ClassTitle">{CardData.title}</span>
       <div className="c-skills">
@@ -21,7 +21,17 @@ const Card = ({ CardData }) => {
           );
         })}
       </div>
-      <button className="c-btn">More</button>
+      <button className="c-btn">
+        {" "}
+        <a
+          href="https://linktr.ee/geeky01adarsh"
+          target="_blank"
+          rel="noreferrer"
+          className="more-link"
+        >
+          More
+        </a>
+      </button>
     </div>
   );
 };

@@ -17,36 +17,53 @@ const Project = () => {
   return (
     <>
       <div className="blur proj-blur"></div>
-        <div className="project" >
-            <div id="proj_sec">
-            <span  className="r-proj" style={{color:darkmode?'white':''}}>
-        
+      <div className="project">
+        <div id="proj_sec">
+          <span className="r-proj" style={{ color: darkmode ? "white" : "" }}>
             My Recent Projects
-            </span>
-            
+          </span>
 
-            <Swiper
-            
+          <Swiper
             slidesPerView={2}
             modules={[Pagination]}
-            pagination={{clickable: true}}
+            pagination={{ clickable: true }}
             grabCursor={true}
-            className='project-slider'>
-                <SwiperSlide>
-                    <a href='www.example.com'><img src={proj1} alt="" className='spr-img' /></a>
-                </SwiperSlide>
-                <SwiperSlide>
-                <a href='www.example.com'><img src={proj2} alt="" className='spr-img'/></a>
-                </SwiperSlide>
-                <SwiperSlide>
-                <a href='www.example.com'> <img src={proj3} alt="" className='spr-img'/></a>
-                </SwiperSlide>
-                <SwiperSlide></SwiperSlide>
-            </Swiper>
-            </div>
+            className="project-slider"
+          >
+            <SwiperSlide>
+              <a
+                href="https://github.com/geeky01adarsh/HTML_CSS"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={proj1} alt="" className="spr-img" />
+              </a>
+            </SwiperSlide>
+            <SwiperSlide>
+              <a
+                href="https://github.com/geeky01adarsh/NOOB-CODERS"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={proj2} alt="" className="spr-img" />
+              </a>
+            </SwiperSlide>
+            <SwiperSlide>
+              <a
+                href="https://github.com/geeky01adarsh/portfolio"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {" "}
+                <img src={proj3} alt="" className="spr-img" />
+              </a>
+            </SwiperSlide>
+            <SwiperSlide></SwiperSlide>
+          </Swiper>
         </div>
+      </div>
     </>
-  )
+  );
 }
 
 export default Project
