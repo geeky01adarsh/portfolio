@@ -56,7 +56,7 @@ const Contact = () => {
       {loader ? (
         <div className="contact-loader">
           <RingLoader
-            color="rgba(54, 215, 183, 1)"
+            color="#e05f08"
             loading={loader}
             size={250}
           />
