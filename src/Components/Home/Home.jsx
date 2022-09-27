@@ -12,7 +12,6 @@ import UilLinkedin from "@iconscout/react-unicons/icons/uil-linkedin";
 import UilInstagram from "@iconscout/react-unicons/icons/uil-instagram";
 import Typical from 'react-typical';
 import "../../App.scss";
-// import "~loaders.css/src/animations/pacman.scss"
 
 import { themeContext } from "../../Context";
 import { useContext } from "react";

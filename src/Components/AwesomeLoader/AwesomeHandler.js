@@ -1,7 +1,6 @@
 import React from "react";
 import styled, { keyframes } from "styled-components";
 import { useMediaQuery } from "react-responsive";
-// import "./xlviroundedloader.css";
 
 const Anim = (animParams) => keyframes`
 0% {

@@ -1,4 +1,4 @@
-import {React, useState, useEffect} from "react";
+import {React, useState} from "react";
 import Toggle from "../Toggle/Toggle";
 import "./Navbar.css";
 import { Link } from "react-scroll";

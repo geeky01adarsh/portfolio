@@ -3,9 +3,7 @@ import "./Togggle.css";
 import Sun from "@iconscout/react-unicons/icons/uil-sun";
 import Moon from "@iconscout/react-unicons/icons/uil-moon";
 import { themeContext } from "../../Context";
-import { useContext, useState, useEffect } from "react";
-import { type } from "@testing-library/user-event/dist/type";
-// import Pacman from "react-spinners/Pacman";
+import { useContext, useState } from "react";
 import { PacmanLoader } from "react-spinners";
 
 

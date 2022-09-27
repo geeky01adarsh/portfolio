@@ -3,7 +3,6 @@ import "./App.css";
 import Home from "./Components/Home/Home";
 import Profile from "./Components/Profile/Profile";
 import About from "./Components/About/About";
-import Loader from "react-loaders";
 import Project from "./Components/Project/Project";
 import Contact from "./Components/Contact Me/Contact";
 import Footer from "./Components/Footer/Footer";
@@ -12,8 +11,7 @@ import { useContext, useState, useEffect } from "react";
 import "./App.scss";
 import { Dna } from "react-loader-spinner";
 import ScrollButton from "./Components/ScrollButton/ScrollButton";
-import XlviLoader from "./Components/AwesomeLoader/AwesomeHandler";
-// import { XlviLoader } from "react-awesome-loaders";
+
 
 function App() {
   const theme = useContext(themeContext);
