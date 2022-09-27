@@ -54,7 +54,6 @@ const Project = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                {" "}
                 <img src={proj3} alt="" className="spr-img" />
               </a>
             </SwiperSlide>

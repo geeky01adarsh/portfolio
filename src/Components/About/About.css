@@ -94,9 +94,11 @@
         left:7%;
         
     }
+    
     .right-cards>*{
         position: static;
         margin-top: 2rem;
+        width: 100%;
     }
     .about-blur{
         display: none;
