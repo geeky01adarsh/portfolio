@@ -189,7 +189,8 @@ textarea:focus {
 
 @media screen and (max-height:350px) {
     .contact-me{
-        margin-top: -10rem;
+        margin-top: 10rem;
+       
         margin-bottom: 10rem;
     }
 }
