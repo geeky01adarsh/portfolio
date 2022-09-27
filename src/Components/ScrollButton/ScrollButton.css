@@ -13,3 +13,6 @@
 }
 
 
+@media screen and (min-width:500px) and (max-width:1000px){
+    .scroll-btn{transform: scale(1.2) !important;}
+}
