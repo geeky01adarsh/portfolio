@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.43ca7b84.css",
+    "main.js": "/portfolio/static/js/main.af30cce6.js",
+    "static/media/proj3.png": "/portfolio/static/media/proj3.f3fd231080c001b432b0.png",
+    "static/media/proj2.png": "/portfolio/static/media/proj2.94c576d324826debb450.png",
+    "static/media/boy1.png": "/portfolio/static/media/boy1.c67871d1e4c1ffdad45a.png",
+    "static/media/resume.pdf": "/portfolio/static/media/resume.e426bacaf7369fb855af.pdf",
+    "static/media/proj1.png": "/portfolio/static/media/proj1.a422b11e2ed3cb4f1a76.png",
+    "static/media/glassesimoji.png": "/portfolio/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
+    "static/media/Gumela Regular.otf": "/portfolio/static/media/Gumela Regular.0ae83c6988a536716eb4.otf",
+    "static/media/thumbup.png": "/portfolio/static/media/thumbup.e06790ba656f0397cbe5.png",
+    "static/media/humble.png": "/portfolio/static/media/humble.c8b32b53675e68978981.png",
+    "static/media/heartemoji.png": "/portfolio/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
+    "static/media/wave.png": "/portfolio/static/media/wave.fdfef4069ad90f610990.png",
+    "static/media/crown.png": "/portfolio/static/media/crown.dbe416beae9b49b842ab.png",
+    "static/media/Vector2.png": "/portfolio/static/media/Vector2.28db5bfd58081dd1df1b.png",
+    "static/media/glasses.png": "/portfolio/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
+    "static/media/programming-skills.svg": "/portfolio/static/media/programming-skills.d19983a9bee884277ffa4156796bcc0c.svg",
+    "static/media/projects.svg": "/portfolio/static/media/projects.2b352a52b0588dab62f56a7d1c1e436d.svg",
+    "static/media/interests.svg": "/portfolio/static/media/interests.809890a3e4fb0938f61bb8a6c34a6940.svg",
+    "static/media/education.svg": "/portfolio/static/media/education.10cfa28a40119ebd70cf4fb33fd5934e.svg",
+    "static/media/work-history.svg": "/portfolio/static/media/work-history.a566475dedb99dea4bb8b9115798b2a3.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/arrow.svg": "/portfolio/static/media/arrow.cb699807c157fbb0663a629ca2596ce8.svg",
+    "static/media/link.svg": "/portfolio/static/media/link.4cea3a56cce213a09152fd2551384f3b.svg",
+    "main.43ca7b84.css.map": "/portfolio/static/css/main.43ca7b84.css.map",
+    "main.af30cce6.js.map": "/portfolio/static/js/main.af30cce6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.43ca7b84.css",
+    "static/js/main.af30cce6.js"
+  ]
+}
