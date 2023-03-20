@@ -104,9 +104,9 @@ body {
 
 @media screen and (min-width:500px) and (max-width:1000px) {
   .App>* {
-    transform: scale(0.55) !important;
+    transform: scale(0.65) !important;
     padding: 0;
-    margin-left: -7rem !important;
+    margin-left: -9rem !important;
   }
 
   #proj-sec {

@@ -87,4 +87,9 @@ li:hover{
         padding-left: 5rem !important;
         /* border: 2px solid red; */
     }
+    .n-list{
+        transform: scale(5) !important;
+    }
+    
+   
 }
