@@ -53,7 +53,7 @@ const About = () => {
             <span className="greet">
             I am Adarsh Navneet Sinha,</span>
             <span className="greet">
-            a third-year engineering student from IIST Indore, persuing my
+            a third-year engineering student from IIST Indore, pursuing my
             engineering with Computer Science as my major. I am highly interested in
             programming related stuff and I am currently learning full stack web
             development using MERN. Also, I possess a decent knowledge of DSA

@@ -49,3 +49,8 @@
     cursor: pointer;
     color: var(--orange);
 }
+
+.more-link{
+    text-decoration: none;
+    color: var(--white);
+}

@@ -64,11 +64,17 @@
 @media screen and (max-width:500px) {
     .project {
         margin-top: 25rem;
+        margin-bottom: 2rem;
     }
 
     .proj-blur{
         transform: scale(0.4); 
         /* display: none; */
+    }
+    .r-proj{
+        font-size: 40px;
+        font-weight: 400;
+        margin-left: 2.2rem;
     }
 
 }
@@ -76,11 +82,11 @@
 @media screen and (min-width:500px) and (max-width:1000px) {
     #proj_sec {
         margin-top: -20px;
-        
+        transform: scale(0.95)!important;
     }
     .project .swiper-pagination {
         top: 24rem;
-        left: 10rem!important;
+        left: 3rem!important;
     }
 
 
@@ -90,5 +96,14 @@
 @media screen and (max-height:520px){
     .project{
         margin-bottom: 20rem !important;
+    }
+    .r-proj{
+        margin-left: 12rem;
+    }
+}
+
+@media screen and (max-height:350px){
+    #proj_sec{
+        margin-top: 30rem;
     }
 }

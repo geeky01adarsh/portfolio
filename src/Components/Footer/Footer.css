@@ -45,12 +45,13 @@
   
   .f-content{
     text-align: center;
-    margin-left: 1rem;
+    margin-left: 1.3rem;
+    transform: scale(0.85);
     /* margin-top: 5rem; */
   }
 
   .f-icons{
-    transform: scale(0.8);
+    transform: scale(1);
     margin-top: -2rem;
   }
   

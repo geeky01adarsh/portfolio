@@ -68,6 +68,7 @@ li:hover{
 }
 
 @media screen and (max-width: 480px){
+    
     .n-list{
         display: none;
     }
@@ -86,6 +87,7 @@ li:hover{
     .n-wrapper{
         padding-left: 5rem !important;
         /* border: 2px solid red; */
+        margin-top: 0.3rem;
     }
     .n-list{
         transform: scale(5) !important;

@@ -1,4 +1,4 @@
-import React, { useContext, useRef, useState, Component } from "react";
+import React, { useContext, useRef, useState } from "react";
 import "./Contact.css";
 import emailjs from "@emailjs/browser";
 import { themeContext } from "../../Context";
@@ -56,7 +56,7 @@ const Contact = () => {
       {loader ? (
         <div className="contact-loader">
           <RingLoader
-            color="rgba(54, 215, 183, 1)"
+            color="#e05f08"
             loading={loader}
             size={250}
           />

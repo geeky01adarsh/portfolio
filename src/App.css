@@ -10,6 +10,13 @@
 
 body {
   margin: 0;
+  /* overflow: hidden; */
+  scrollbar-width: none;
+  margin-left: 0;
+}
+
+body::-webkit-scrollbar{
+  display: none;
 }
 
 
@@ -106,10 +113,11 @@ body {
   .App>* {
     transform: scale(0.65) !important;
     padding: 0;
-    margin-left: -9rem !important;
+    margin-left: -7rem !important;
   }
 
   #proj-sec {
     margin-top: 10rem;
   }
 }
+

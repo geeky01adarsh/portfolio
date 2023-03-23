@@ -122,6 +122,7 @@ textarea:focus {
     .contact-me {
         flex-direction: column;
         height: 36rem;
+        margin-top: 10rem;
     }
 
     .c-left {
@@ -161,7 +162,7 @@ textarea:focus {
     .contact-loader {
         display: absolute;
         margin-bottom: 7rem;
-        margin-right: 5rem;
+        margin-right: 5.5rem;
         padding: -10rem;
         /* border: 2px solid red; */
     }
@@ -170,17 +171,35 @@ textarea:focus {
 
 @media screen and (min-width:500px) and (max-width:1000px) {
     .contact-me {
-        gap: 15rem;
-        margin-top: -15rem;
-
+        gap: 4rem;
+        margin-top: -12rem;
+        margin-bottom: 3rem;
+        padding:1rem 0rem;
     }
 
     .c-left {
-        padding: 1rem;
-        padding-left: 5rem;
+        padding: 2rem;
+        margin-left: 8rem;
     }
 
     .c-right {
-        padding-left: 3rem;
+        padding-left: 5rem;
     }
+}
+
+@media screen and (max-height:350px) {
+    .contact-me{
+        margin-top: 10rem;
+       
+        margin-bottom: 10rem;
+    }
+}
+
+@media screen and (min-height:1000px) and (max-height:1300px) {
+    .contact-me {
+        height: fit-content;
+        margin-top: -25rem;
+        margin-bottom: -3rem;
+    }
+
 }
