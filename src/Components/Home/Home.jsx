@@ -25,7 +25,7 @@ import { Link } from "react-scroll";
 const skills = [
   {
     img: crown,
-    first: "React",
+    first: "MERN",
     last: "Developer",
   },
   {
