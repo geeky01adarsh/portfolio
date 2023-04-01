@@ -80,7 +80,7 @@ const Home = () => {
   const devProf = [
     "Coding Enthusiast💪",
     1800,
-    "React Developer😎",
+    "MERN Developer😎",
     1800,
     "Content Writer📝",
     1200,
