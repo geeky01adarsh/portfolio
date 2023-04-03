@@ -70,6 +70,9 @@ dependencies:
   scss:
     specifier: ^0.2.4
     version: 0.2.4
+  styled-components:
+    specifier: ^5.3.9
+    version: 5.3.9(react-dom@18.2.0)(react-is@18.2.0)(react@18.2.0)
   swiper:
     specifier: ^8.4.2
     version: 8.4.2
