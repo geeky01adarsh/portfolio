@@ -4,8 +4,6 @@ import Wave from "../../assests/img/wave.png";
 import Insta from "@iconscout/react-unicons/icons/uil-instagram";
 import LinkedIn from "@iconscout/react-unicons/icons/uil-linkedin";
 import Gitub from "@iconscout/react-unicons/icons/uil-github";
-import { themeContext } from '../../Context';
-import {useContext} from 'react';
 
 const Footer = () => {
   return (

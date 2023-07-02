@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./Profile.css";
 import profileBullets from "./profileBullets";
 import profileDetails from "./profileDetails";

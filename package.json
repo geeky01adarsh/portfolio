@@ -3,6 +3,7 @@
   "name": "geeky01adarsh-portfolio",
   "version": "0.1.0",
   "private": true,
+  "author": {"name":"geeky01adarsh"},
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
     "@iconscout/react-unicons": "^1.1.6",
