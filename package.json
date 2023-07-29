@@ -47,7 +47,7 @@
     "eject": "react-scripts eject",
     "start": "vite",
     "build": "tsc && vite build",
-    "serve": "vite preview",
+    "serve": "vite preview"
   },
   "eslintConfig": {
     "extends": [
