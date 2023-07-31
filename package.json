@@ -44,6 +44,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "start": "vite",
+    "dev":"vite",
     "build": "tsc && vite build",
     "serve": "vite preview"
   },
