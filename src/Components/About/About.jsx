@@ -45,19 +45,23 @@ const About = () => {
         <div className="left">
           <span style={{ color: darkmode ? "white" : "" }}>About Me</span>
           <span>
-            <span className="greet">Hey hi✨</span>
+            {/* <span className="greet">Hey hi✨</span>
              <span className="greet"> First of all thank you so much for your interest in my
             portfolio!!! </span>
             <span className="greet">
             A brief intoduction of mine..., </span>
             <span className="greet">
-            I am Adarsh Navneet Sinha,</span>
+            I am Adarsh Navneet Sinha,</span> 
             <span className="greet">
             a third-year engineering student from IIST Indore, pursuing my
             engineering with Computer Science as my major. I am highly interested in
             programming related stuff and I am currently learning full stack web
             development using MERN. Also, I possess a decent knowledge of DSA
             and have tried my hands over Competitive Programming.
+            </span> */}
+            <span className="greet">
+              Hi, I am Adarsh, a full stack web developer with expertise in MERN Stack development.
+              I am a final year, Computer Science Engineering Student from IIST Indore. 
             </span>
           </span>
           <a href={resume} download>
