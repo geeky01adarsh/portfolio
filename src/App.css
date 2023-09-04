@@ -1,10 +1,10 @@
 @font-face {
   font-family: Gumela;
-  src: url('./assests/fonts/Gumela\ Regular.otf');
+  src: url("./assests/fonts/GumelaRegular.otf") format("truetype");
 }
 
 * {
-  font-family: 'Gumela';
+  font-family: "Gumela";
   font-weight: 500;
 }
 
@@ -15,17 +15,16 @@ body {
   margin-left: 0;
 }
 
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
   display: none;
 }
 
-
 :root {
-  --yellow: #F5C32C;
-  --orange: #FCA61F;
-  --black: #242D49;
+  --yellow: #f5c32c;
+  --orange: #fca61f;
+  --black: #242d49;
   --gray: #788097;
-  --blueCard: #DDF8FE;
+  --blueCard: #ddf8fe;
   --purple: rgb(238 210 255);
   --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
   --orangeCard: rgba(252, 166, 31, 0.45);
@@ -33,14 +32,13 @@ body::-webkit-scrollbar{
 }
 
 .Loader {
-
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 100vh;
-    background-color: rgba(255, 255, 26, 0.60);
+  background-color: rgba(255, 255, 26, 0.6);
 }
 
 .App {
@@ -49,9 +47,7 @@ body::-webkit-scrollbar{
   color: var(--black);
 }
 
-
-
-.about-proj{
+.about-proj {
   background: black;
 }
 
@@ -73,14 +69,12 @@ body::-webkit-scrollbar{
   border-color: var(--orange);
 }
 
-
-
 @media screen and (max-width: 500px) {
   .App {
     padding: 0.5rem 1rem;
   }
 
-  .right-cards>* {
+  .right-cards > * {
     margin: 5rem 1rem;
     position: static;
   }
@@ -103,14 +97,11 @@ body::-webkit-scrollbar{
 @media screen and (max-width: 500px) {
   .App {
     padding: 0.5rem 0.5rem;
-
   }
-
 }
 
-
-@media screen and (min-width:500px) and (max-width:1000px) {
-  .App>* {
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+  .App > * {
     transform: scale(0.65) !important;
     padding: 0;
     margin-left: -7rem !important;
@@ -120,4 +111,3 @@ body::-webkit-scrollbar{
     margin-top: 10rem;
   }
 }
-
