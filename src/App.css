@@ -9,7 +9,8 @@
 }
 
 body {
-  margin: 0;
+  margin: 0 2rem;
+
   /* overflow: hidden; */
   scrollbar-width: none;
   margin-left: 0;

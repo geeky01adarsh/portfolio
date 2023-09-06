@@ -1,6 +1,6 @@
 .about{
     display: flex;
-    height: 100vh;
+    /* height: 100vh; */
     padding: 0 3rem 0 0rem;
     margin: 6rem 0 -2rem 0;
 }
