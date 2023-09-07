@@ -2,7 +2,8 @@ import React from "react";
 import "./Home.css";
 import Vector1 from "../../assests/img/Vector1.png";
 import Vector2 from "../../assests/img/Vector2.png";
-import boy from "../../assests/img/boy1.png";
+// import boy from "../../assests/img/boy1.png";
+import boy from "../../assests/profile1.gif";
 import glassesimoji from "../../assests/img/glassesimoji.png";
 import thumbup from "../../assests/img/thumbup.png";
 import crown from "../../assests/img/crown.png";
@@ -10,17 +11,13 @@ import FloatingDiv from "../Floating Div/FloatingDiv";
 import UilGithub from "@iconscout/react-unicons/icons/uil-github";
 import UilLinkedin from "@iconscout/react-unicons/icons/uil-linkedin";
 import UilInstagram from "@iconscout/react-unicons/icons/uil-instagram";
-import Typical from 'react-typical';
+import Typical from "react-typical";
 import "../../App.scss";
 
 import { themeContext } from "../../Context";
 import { useContext } from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
-
-
-
-
 
 const skills = [
   {
@@ -105,9 +102,7 @@ const Home = () => {
               })}
             </motion.span>
             <span className="n3-child">
-              
-                <Typical loop={Infinity} steps={devProf} />
-              
+              <Typical loop={Infinity} steps={devProf} />
               with a kanck of learning and exploring...
             </span>
           </div>
@@ -163,8 +158,8 @@ const Home = () => {
         </div>
 
         <div className="i-right">
-          <img src={Vector1} alt="" />
-          <img src={Vector2} alt="" />
+          {/* <img src={Vector1} alt="" /> */}
+          {/* <img src={Vector2} alt="" /> */}
           <img src={boy} alt="" />
 
           <motion.img
@@ -178,19 +173,21 @@ const Home = () => {
 
           <motion.div
             initial={{ left: "100%" }}
-            whileInView={{ left: "75%" }}
+            whileInView={{ left: "68%" }}
             transition={transition}
             className="floating-div1"
           >
-            <FloatingDiv skills={skills[0]} />
+            <FloatingDiv skills={skills[1]} />
           </motion.div>
           <motion.div
             initial={{ left: "-35%" }}
-            whileInView={{ left: "-20%" }}
+            whileInView={{ left: "-10%" }}
+            transition={transition}
             className="floating-div2"
           >
-            <FloatingDiv skills={skills[1]} />
+            <FloatingDiv skills={skills[0]} />
           </motion.div>
+          
         </div>
       </div>
     </>

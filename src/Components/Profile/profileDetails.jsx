@@ -29,12 +29,12 @@ const profileDetails = [
       <div className="skill-parent" key={index}>
         <div className="heading-bullet"></div>
         <span>{skill.skill}</span>
-        <div className="skill-percentage">
+        {/* <div className="skill-percentage">
           <div
             style={{ width: skill.ratingPercentage + "%" }}
             className="active-percentage-bar"
           ></div>
-        </div>
+        </div> */}
       </div>
     ))}
   </div>,

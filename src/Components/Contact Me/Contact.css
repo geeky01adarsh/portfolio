@@ -1,10 +1,9 @@
 .contact-me {
     display: flex;
-    height: 60vh;
+    /* height: 60vh; */
     margin-left: -20%;
-    margin-top: 5rem;
-    margin-bottom: -1rem;
-    padding-top: 3rem;
+    margin-top: 25rem;
+    margin-bottom: 2rem;
 }
 
 

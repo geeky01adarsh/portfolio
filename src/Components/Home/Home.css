@@ -1,7 +1,7 @@
 .home{
     display: flex;
-    height: 77vh;
-    margin-top: 6rem;
+    /* height: 77vh; */
+    margin-top: 4rem;
     padding-top: 5rem;
 }
 
@@ -11,6 +11,7 @@
     flex: 1;
     flex-direction: column;
     gap: 2rem;
+    margin-top: -0.5rem;
 }
 
 
@@ -78,23 +79,24 @@
 }
 
 .i-right>:nth-child(1){
-    transform: scale(0.69);
-    left: -15%;
+    /* transform: scale(0.69); */
+    left: 15%;
     top: -9%;
 }
 
-.i-right>:nth-child(2){
+.i-right>:nth-child(3){
     top: -4.6rem;
-    transform: scale(0.67);
-    left:-3rem;
+    /* transform: scale(0.67); */
+    /* left:-3rem; */
 }
+/*
 
 .i-right>:nth-child(3){
-    /* transform: rotate(2deg); */
+    /* transform: rotate(2deg); 
     left: 5%;
     top:  -8%;
     transform: scale(1.15) rotate(9deg); 
-}
+} */
 
 .i-btn2{
     width: fit-content;
@@ -114,7 +116,7 @@
     display: flex;
     z-index: 1;
     top: 53%;
-    left: -21%;
+    /* left: -21%; */
     padding: 0;
 }
 
