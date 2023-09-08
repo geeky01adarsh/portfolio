@@ -47,15 +47,15 @@ const Navbar = () => {
                 smooth={true}
                 activeClass="activeClass"
               >
-                <motion.li variants={item} >Home</motion.li>
+                <motion.li className="nav-links" variants={item} >Home</motion.li>
               </Link>
-              <Link spy={true} to="about_sec" smooth={true}>
+              <Link spy={true} className="nav-links" to="about_sec" smooth={true}>
                 <motion.li variants={item}>About</motion.li>
               </Link>
-              <Link spy={true} to="profile" smooth={true}>
+              <Link spy={true} className="nav-links" to="profile" smooth={true}>
                 <motion.li variants={item}>Profiles</motion.li>
               </Link>
-              <Link spy={true} to="proj_sec" smooth={true}>
+              <Link spy={true} className="nav-links" to="proj_sec" smooth={true}>
                 <motion.li variants={item}>Projects</motion.li>
               </Link>
             </motion.ul>

@@ -20,8 +20,8 @@ const CodingProfiles = [
     link: "https://github.com/geeky01adarsh/",
   },
   {
-    title: "HackerRank",
-    link: "https://www.hackerrank.com/geeky01adarsh",
+    title: "Stack Overflow",
+    link: "https://stackoverflow.com/users/15397231/geeky01adarsh",
   },
 ];
 

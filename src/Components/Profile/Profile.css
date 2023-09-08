@@ -127,6 +127,15 @@
     
 }
 
+.experience-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+}
+
+.experience-description-list{
+    margin: 0;
+}
 .profile-screen-container::-webkit-scrollbar{
     display: none;
 }
@@ -163,10 +172,19 @@
     background-color: #ff5823;
 }
 
+.programming-bullet{
+    left: 0;
+}
+
+.programming-skill{
+    position: relative;
+    left:2rem;
+}
+
 .profile-sub-heading {
     font-size: 16px;
     color:#191e2c;
-    margin: 10px 0 0 0;
+    margin: 0.5rem 0 0rem 0;
 }
 
 .profile-heading-description {
@@ -193,7 +211,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left:30px ;
+    margin-left:50px ;
     justify-content: space-between;
     flex-wrap: wrap;
 }

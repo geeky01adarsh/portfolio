@@ -1,11 +1,11 @@
-import achievementDetails from "./achievementDetails";
+import achievementDetails from "./data/achievementDetails";
 import ProfileHeading from "./ProfileHeading";
-import CodingProfiles from "./codingProfiles";
-import educationDetails from "./educationDetails";
-import Hobbies from "./hobbies";
-import programmingSkillsDetails from "./programmingSkillsDetails";
-import './Profile.css'
-
+import CodingProfiles from "./data/codingProfiles";
+import educationDetails from "./data/educationDetails";
+import Hobbies from "./data/hobbies";
+import programmingSkillsDetails from "./data/programmingSkillsDetails";
+import "./Profile.css";
+import { experienceData } from "./data/experienceData";
 
 const profileDetails = [
   <div className="profile-screen-container" key="education">
@@ -27,8 +27,8 @@ const profileDetails = [
   >
     {programmingSkillsDetails.map((skill, index) => (
       <div className="skill-parent" key={index}>
-        <div className="heading-bullet"></div>
-        <span>{skill.skill}</span>
+        <div className="heading-bullet programming-bullet"></div>
+        <span className="programming-skill">{skill.skill}</span>
         {/* <div className="skill-percentage">
           <div
             style={{ width: skill.ratingPercentage + "%" }}
@@ -66,18 +66,47 @@ const profileDetails = [
   /* WORK EXPERIENCE */
   <div className="profile-screen-container" key="work-experience">
     <div className="experience-container">
-      <ProfileHeading
+      {experienceData.map((data) => {
+        return (
+          <div>
+            <ProfileHeading
+              heading={data.heading}
+              subHeading={data.subHeading}
+              fromDate={data.fromDate}
+              toDate={data.toDate}
+            />
+            <div className="experience-description">
+              <ul className="experience-description-list">
+                {data.description.map((desc) => {
+                  return (
+                    <li className="experience-text">
+                      <span className="profile-description-text">
+                        {desc}
+                      </span>
+                    </li>
+                  );
+                })}
+              </ul>
+            </div>
+          </div>
+        );
+      })}
+      {/* <ProfileHeading
         heading={"GeeksforGeeks"}
         subHeading={"Technical Content Writer"}
-        fromDate={"2022"}
-        toDate={"Present"}
+        fromDate={"Jan 2022"}
+        toDate={"June 2022"}
       />
       <div className="experience-description">
         <span className="profile-description-text">
           I have written around 23 articles and have improved around 60 articles
           during this tenure of my internship.
         </span>
-      </div>
+        <span className="profile-description-text">
+          I have written around 23 articles and have improved around 60 articles
+          during this tenure of my internship.
+        </span>
+      </div> */}
     </div>
   </div>,
 
