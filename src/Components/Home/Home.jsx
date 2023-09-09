@@ -30,6 +30,11 @@ const skills = [
     first: "Competitive",
     last: "Programmer",
   },
+  {
+    // img: ,
+    first: "Technical",
+    last: "Content Writer",
+  },
 ];
 
 const container = {
@@ -187,7 +192,14 @@ const Home = () => {
           >
             <FloatingDiv skills={skills[0]} />
           </motion.div>
-          
+          <motion.div
+            initial={{ left: "-35%" }}
+            whileInView={{ left: "70%" }}
+            transition={transition}
+            className="floating-div2"
+          >
+            <FloatingDiv skills={skills[2]} />
+          </motion.div>
         </div>
       </div>
     </>
