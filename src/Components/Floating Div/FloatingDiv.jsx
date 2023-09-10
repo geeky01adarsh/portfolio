@@ -8,7 +8,7 @@ const FloatingDiv = ({ skills }) => {
     <>
       <div className="floatingdiv">
         
-              <img src={skills.img} alt="newimg" />
+              <img src={skills.img} alt="newimg" className="skill-img" />
               <span>
                 {skills.first}
 

@@ -7,6 +7,7 @@ import boy from "../../assests/profile1.gif";
 import glassesimoji from "../../assests/img/glassesimoji.png";
 import thumbup from "../../assests/img/thumbup.png";
 import crown from "../../assests/img/crown.png";
+import memo from "../../assests/img/memo.png";
 import FloatingDiv from "../Floating Div/FloatingDiv";
 import UilGithub from "@iconscout/react-unicons/icons/uil-github";
 import UilLinkedin from "@iconscout/react-unicons/icons/uil-linkedin";
@@ -31,7 +32,7 @@ const skills = [
     last: "Programmer",
   },
   {
-    // img: ,
+    img: memo,
     first: "Technical",
     last: "Content Writer",
   },
@@ -186,15 +187,15 @@ const Home = () => {
           </motion.div>
           <motion.div
             initial={{ left: "-35%" }}
-            whileInView={{ left: "-10%" }}
+            whileInView={{ left: "0%" }}
             transition={transition}
             className="floating-div2"
           >
             <FloatingDiv skills={skills[0]} />
           </motion.div>
           <motion.div
-            initial={{ left: "-35%" }}
-            whileInView={{ left: "70%" }}
+            initial={{ right: "-10%" }}
+            whileInView={{ right: "5%" }}
             transition={transition}
             className="floating-div2"
           >
