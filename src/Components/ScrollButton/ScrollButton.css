@@ -5,7 +5,7 @@
     bottom: 40px;
     font-size: 3rem;
     z-index: 1;
-    cursor: pointer;
+    /* cursor: pointer; */
     background: transparent;
     border: transparent;
     transform: scale(2);

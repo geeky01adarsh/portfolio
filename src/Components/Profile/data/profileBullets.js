@@ -1,8 +1,8 @@
-import education from "../../assests/img/education.svg";
-import interests from "../../assests/img/interests.svg";
-import programming_skills from "../../assests/img/programming-skills.svg";
-import projects from "../../assests/img/projects.svg";
-import work_history from "../../assests/img/work-history.svg";
+import education from "../../../assests/img/education.svg";
+import interests from "../../../assests/img/interests.svg";
+import programming_skills from "../../../assests/img/programming-skills.svg";
+import projects from "../../../assests/img/projects.svg";
+import work_history from "../../../assests/img/work-history.svg";
 // import coding from "../../assests/img/website-code.svg"
 
 const profileBullets = [

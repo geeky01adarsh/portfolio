@@ -46,7 +46,7 @@
 }
 
 .c-btn:hover{
-    cursor: pointer;
+    /* cursor: pointer; */
     color: var(--orange);
 }
 

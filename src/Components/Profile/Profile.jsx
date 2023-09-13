@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Profile.css";
-import profileBullets from "./profileBullets";
+import profileBullets from "./data/profileBullets";
 import profileDetails from "./profileDetails";
 
 

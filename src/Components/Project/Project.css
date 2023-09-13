@@ -47,10 +47,24 @@
     width: 100%;
 }
 
+
+
 .spr-img {
     width: 30rem;
     position: absolute;
     filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.55));
+}
+
+.spr-img:hover{
+    transform: scale(1.1);
+}
+
+.project-name{
+    top: 17rem;
+    position: relative;
+    color: var(--orange);
+    left: 16rem;
+    font-size: 30px;
 }
 
 .project .swiper-pagination {

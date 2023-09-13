@@ -47,6 +47,9 @@ dependencies:
   react:
     specifier: ^18.2.0
     version: 18.2.0
+  react-animated-cursor:
+    specifier: ^2.8.1
+    version: 2.8.1(react-dom@18.2.0)(react@18.2.0)
   react-content-loader:
     specifier: ^6.2.0
     version: 6.2.0(react@18.2.0)
@@ -10710,6 +10713,16 @@ packages:
       http-errors: 2.0.0
       iconv-lite: 0.4.24
       unpipe: 1.0.0
+    dev: false
+
+  /react-animated-cursor@2.8.1(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-cCYgR1m5AdK69eJROxTGMZrRLrvOY7KhZSHLFUlG3IFW88+JTXMfv91y/uyFugF10w2oPrkWUXOFaTj8rXYMWA==}
+    peerDependencies:
+      react: ^18.2.0
+      react-dom: ^18.2.0
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
     dev: false
 
   /react-app-polyfill@3.0.0:

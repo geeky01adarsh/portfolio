@@ -96,7 +96,7 @@ textarea:focus {
 .c-btn:focus {
     background: #ffffff;
     color: var(--orange);
-    cursor: pointer;
+    /* cursor: pointer; */
     border: 1px solid;
     border-color: var(--orange);
 }

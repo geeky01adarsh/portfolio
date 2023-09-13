@@ -6,7 +6,7 @@
     border-radius: 1rem;
     position: relative;
     padding: 2px;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .toggle>*{

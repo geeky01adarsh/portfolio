@@ -20,7 +20,7 @@
 }
 
 .n-name:hover{
-    cursor:pointer;
+    /* cursor:pointer; */
     /* color: var(--yellow); */
     font-size: 1.5rem;
     /* animation: rotate 2s 1; */
@@ -59,12 +59,14 @@
 .nav-links:hover{
     color: var(--orange);
     transform: scale(1.3);
-    cursor: pointer;
+    /* cursor: pointer; */
     font-weight: 560;
 }
 
 .n-button{
     flex: 2;
+    position:relative;
+    right: 4rem;
 }
 
 @media screen and (max-width: 480px){

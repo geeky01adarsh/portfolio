@@ -133,7 +133,7 @@
 .animated-text>*:hover{
     color: var(--yellow);
     font-size: larger;
-    cursor:pointer;
+    /* cursor:pointer; */
     transition: effect linear 1s;
 }
 
