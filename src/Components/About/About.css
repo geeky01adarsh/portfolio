@@ -10,6 +10,9 @@
     position: relative;
     flex: 1;
     flex-direction: column;
+    justify-content: center;
+    top: 10rem;
+    width: 10%;
     gap: 2rem;
 }
 

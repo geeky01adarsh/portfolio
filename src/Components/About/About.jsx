@@ -60,14 +60,17 @@ const About = () => {
             and have tried my hands over Competitive Programming.
             </span> */}
             <span className="greet">
-              Hi, I am Adarsh, a full stack web developer with expertise in MERN Stack development.
-              I am a final year, Computer Science Engineering Student from IIST Indore. 
+              A full stack web developer with expertise in MERN Stack
+              development. I love building backend-rich websites. I am a final
+              year, Computer Science Engineering Student from IIST Indore.
+              Looking for Software Developer Engineer roles for backend
+              development and full stack development roles.
             </span>
           </span>
           <a href={resume} download>
             <button className="button  a-btn">Get Resume</button>
           </a>
-          <div className="blur about-blur2" style={{background:'red'}}></div>
+          <div className="blur about-blur2" style={{ background: "red" }}></div>
         </div>
 
         <div className="right-cards">
@@ -92,8 +95,8 @@ const About = () => {
           </motion.div>
 
           <motion.div
-            initial={{ top: "0rem", left:"20px" }}
-            whileInView={{ top: "20rem", left:"20rem"}}
+            initial={{ top: "0rem", left: "20px" }}
+            whileInView={{ top: "20rem", left: "20rem" }}
             transition={transition}
             className="card3"
           >
