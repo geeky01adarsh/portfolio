@@ -121,7 +121,7 @@ textarea:focus {
     .contact-me {
         flex-direction: column;
         height: 36rem;
-        margin-top: 10rem;
+        margin-top: -2rem;
     }
 
     .c-left {

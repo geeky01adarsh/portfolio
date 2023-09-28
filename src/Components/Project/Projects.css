@@ -144,11 +144,16 @@
 }
 
 
-@media screen and (max-height:520px){
+@media screen and (max-width:500px){
     .project{
-        margin-bottom: 20rem !important;
+        margin:0;
     }
     
+    .projects{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
 }
 
 @media screen and (max-height:350px){

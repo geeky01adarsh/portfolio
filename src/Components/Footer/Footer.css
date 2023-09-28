@@ -27,9 +27,15 @@
     fill: var(--orange);
 }
 
-@media screen and (max-width: 820px){
+@media screen and (max-width: 500px){
   .footer{
-    height: 180px;
+    margin: 0;
+    /* margin-top: 10rem; */
+    height: auto;
+    /* height: 180px;  */
+  }
+  .f-icons{
+    margin-top: -2rem;
   }
   .f-content{
     transform: scale(.7);
