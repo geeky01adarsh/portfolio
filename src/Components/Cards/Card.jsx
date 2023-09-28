@@ -11,8 +11,8 @@ const Card = ({ CardData }) => {
   return (
     <div className="card">
       <img src={CardData.emoji} alt="" />
-      <span className="ClassTitle">{CardData.title}</span>
-      <div className="c-skills">
+      <span className="ClassTitle" style={{ color: darkmode ? "#1d212f" : "" }}>{CardData.title}</span>
+      <div className="c-skills" style={{ color: darkmode ? "#ffffffc7" : "" }}>
         {CardData.skills.map((ele) => {
           return (
             <>

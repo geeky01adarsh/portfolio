@@ -3,7 +3,6 @@ import "./Profile.css";
 import profileBullets from "./data/profileBullets";
 import profileDetails from "./profileDetails";
 
-
 const Profile = () => {
   const [selectedBulletIndex, setSelectedBulletIndex] = useState(0);
   const [carousalOffsetStyle, setCarousalOffsetStyle] = useState({});
@@ -62,7 +61,7 @@ const Profile = () => {
           <div className="profile-bullet-details">{getProfileScreens()}</div>
         </div>
       </div>
-      <div className="profile-blur" style={{background:'orangered'}}></div>
+      <div className="profile-blur" style={{ background: "orangered" }}></div>
     </div>
   );
 };

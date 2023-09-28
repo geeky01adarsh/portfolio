@@ -62,6 +62,9 @@ dependencies:
   react-loaders:
     specifier: ^3.0.1
     version: 3.0.1(prop-types@15.8.1)(react@18.2.0)
+  react-parallax-tilt:
+    specifier: ^1.7.168
+    version: 1.7.168(react-dom@18.2.0)(react@18.2.0)
   react-responsive:
     specifier: ^9.0.0
     version: 9.0.0(react@18.2.0)
@@ -10836,6 +10839,16 @@ packages:
       classnames: 2.3.2
       prop-types: 15.8.1
       react: 18.2.0
+    dev: false
+
+  /react-parallax-tilt@1.7.168(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-Lk4o4xQ8Xy7mh5X3t7tSXXb4vRSejZFgZLgA/rzZ2ojNvmhl70HEh+3AyEARQSC/geVVC7w3H3sk/Gk2QI/tmA==}
+    peerDependencies:
+      react: ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
     dev: false
 
   /react-refresh@0.10.0:

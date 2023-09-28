@@ -12,6 +12,7 @@ import "./App.scss";
 import { Dna } from "react-loader-spinner";
 import AnimatedCursor from "react-animated-cursor";
 import ScrollButton from "./Components/ScrollButton/ScrollButton";
+import Projects from "./Components/Project/Projects";
 
 function App() {
   const theme = useContext(themeContext);
@@ -88,7 +89,8 @@ function App() {
           <Home />
           <About />
           <Profile />
-          <Project />
+          {/* <Project /> */}
+          <Projects/>
           <Contact />
           <Footer />
           <ScrollButton />

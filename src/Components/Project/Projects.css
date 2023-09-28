@@ -1,0 +1,156 @@
+.project {
+    /* height: 100vh; */
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 0 0 0;
+}
+
+
+#proj_sec{
+    display: flex;
+    flex-direction: column;
+    gap:6rem;
+}
+
+.projectCardSeperator{
+    color: var(--orange);
+    margin-top: -1rem;
+}
+
+.proj-blur{
+    background: rgb(122, 26, 219);
+    display: flex;
+    position: absolute;
+    left: -10rem;
+    top: 10px;
+    z-index: -9999;
+    opacity: 40%;
+    padding-top: 10rem;
+    margin-top: -9rem;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    gap: 2rem;
+    /* align-self: center; */
+    /* width: 100%; */
+}
+
+
+.projectCardImg{
+    width: 100%;
+    overflow: hidden;
+}
+
+.projectCard{
+    background-color: #fff;
+    /* overflow: hidden; */
+    border-radius: 10px;
+    height: fit-content;
+    /* border: 2px solid; */
+}
+
+.projectCardName{
+    font-size: 30px;
+    margin-bottom: 0.5rem;
+}
+
+.projectCard:hover{
+    transform: scale(1.1);
+    align-items: center;
+}
+
+.projectCardDetails{
+    display: none;
+}
+
+.projectCardDesc, .projectCardLink{
+    font-size: medium;
+}
+
+.projectCardGithub, .projectCardLive{
+    text-decoration: none;
+    color: #fff;
+}
+
+.projectCard:hover .projectCardName{
+    color: var(--orange);
+    margin: 0;
+}
+
+.projectCard:hover{
+    background-color: transparent;
+    transform: scale(1.2);
+}
+
+.projectCard:hover .projectCardDetails{
+    display: flex;
+    flex-direction: column;
+}
+
+.projectCard:hover .projectCardPop-up{
+    background-color: #fff;
+    position: relative;
+    top: -5rem;
+}
+
+.projectCard:hover .projectCardDesc{
+    margin-bottom: 0.5rem;
+}
+
+.projectCardButton{
+    background-color: var(--orange);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin: 0.2rem 1rem;
+    gap: 1rem;
+}
+
+.projectCardButton:hover{
+    border: 1px solid var(--orange);
+    background-color: #fff;
+}
+
+.projectCardButton:hover>a{
+    color:var(--orange);
+}
+
+@media screen and (max-width:500px) {
+    .project {
+        margin-top: 25rem;
+        margin-bottom: 2rem;
+    }
+
+    .proj-blur{
+        transform: scale(0.4); 
+        /* display: none; */
+    }
+    
+}
+
+@media screen and (min-width:500px) and (max-width:1000px) {
+
+    .project {
+        top: 24rem;
+        left: 3rem!important;
+    }
+
+
+}
+
+
+@media screen and (max-height:520px){
+    .project{
+        margin-bottom: 20rem !important;
+    }
+    
+}
+
+@media screen and (max-height:350px){
+    
+}

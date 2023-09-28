@@ -71,12 +71,18 @@
 
 @media screen and (max-width: 480px){
     
-    .n-list{
+    .n-wrapper{
+        margin: 0.5rem 0 5rem 1rem;
+    }
+    .n-toggle{
+        position: absolute;
+        right: 2rem;
+    }
+
+    .nav-right{
         display: none;
     }
-    .n-button{
-        display: none;
-    }
+
     .nav-blur{
         width: 8rem !important;
         display: flex;
@@ -90,6 +96,7 @@
         padding-left: 5rem !important;
         /* border: 2px solid red; */
         margin-top: 0.3rem;
+        margin-left: 5rem !important;
     }
     .n-list{
         transform: scale(5) !important;

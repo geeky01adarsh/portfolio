@@ -163,11 +163,14 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="i-right">
-          {/* <img src={Vector1} alt="" /> */}
-          {/* <img src={Vector2} alt="" /> */}
-          <img src={boy} alt="" />
 
+        {/* Right side of the homepage */}
+        <div className="i-right">
+
+          {/* Developer GIF */}
+          <img src={boy} alt="" />
+          
+          {/* glass emoji */}
           <motion.img
             initial={{ left: "-30%" }}
             whileInView={{ left: "-10%" }}
@@ -177,27 +180,34 @@ const Home = () => {
             alt=""
           />
 
+          {/* MERN Developer Div */}
           <motion.div
             initial={{ left: "100%" }}
-            whileInView={{ left: "68%" }}
+            whileInView={{ left: "65%" }}
             transition={transition}
             className="floating-div1"
           >
-            <FloatingDiv skills={skills[1]} />
+            <FloatingDiv skills={skills[0]} />
           </motion.div>
+
+
+          {/* Competitive Programmer */}
           <motion.div
             initial={{ left: "-35%" }}
-            whileInView={{ left: "0%" }}
+            whileInView={{ left: "-5%" }}
             transition={transition}
             className="floating-div2"
           >
-            <FloatingDiv skills={skills[0]} />
+            <FloatingDiv skills={skills[1]} />
           </motion.div>
+
+
+          {/* Technical Content Writer */}
           <motion.div
             initial={{ right: "-10%" }}
-            whileInView={{ right: "5%" }}
+            whileInView={{ right: "0%" }}
             transition={transition}
-            className="floating-div2"
+            className="floating-div3"
           >
             <FloatingDiv skills={skills[2]} />
           </motion.div>

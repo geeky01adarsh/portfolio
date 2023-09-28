@@ -8,6 +8,9 @@ import "./Profile.css";
 import { experienceData } from "./data/experienceData";
 
 const profileDetails = [
+
+
+  /* Education details */
   <div className="profile-screen-container" key="education">
     {educationDetails.map((educationDetails, index) => (
       <ProfileHeading

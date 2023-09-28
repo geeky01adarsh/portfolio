@@ -91,6 +91,13 @@
         margin-left: 2.2rem;
     }
 
+    .profile-main-heading{
+        transform: scale(0.9);
+    }
+
+    .programming-skills-container{
+        margin-left: 0;
+    }
 }
 
 @media screen and (min-width:500px) and (max-width:1000px) {

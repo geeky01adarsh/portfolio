@@ -59,7 +59,7 @@ const About = () => {
             development using MERN. Also, I possess a decent knowledge of DSA
             and have tried my hands over Competitive Programming.
             </span> */}
-            <span className="greet">
+            <span className="greet" style={{ color: darkmode ? "#ffffffc7" : "" }}>
               A full stack web developer with expertise in MERN Stack
               development. I love building backend-rich websites. I am a final
               year, Computer Science Engineering Student from IIST Indore.

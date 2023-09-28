@@ -7,21 +7,21 @@ export const frontEndProjects = [
         name:"Portfolio",
         github_link:"https://github.com/geeky01adarsh/portfolio",
         live_link:"",
-        description:"",
+        desc:"Portfolio website made using React",
         image:portfolio
     },
     {
         name:"Waste Bin",
         github_link:"https://github.com/geeky01adarsh/NOOB-CODERS",
         live_link:"",
-        description:"",
+        desc:"Prepared for hackathon , landing page",
         image:wasteBin
     },
     {
         name:"Landing Page",
         github_link:"https://github.com/geeky01adarsh/HTML_CSS",
         live_link:"",
-        description:"",
+        desc:"Landing Page made while learning HTML CSS",
         image:landingPage
     }
 ]

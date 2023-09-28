@@ -6,7 +6,7 @@
 * {
   font-family: "Gumela";
   font-weight: 500;
-  cursor: none;
+  /* cursor: none; */
 }
 
 body {
@@ -99,6 +99,7 @@ body::-webkit-scrollbar {
 @media screen and (max-width: 500px) {
   .App {
     padding: 0.5rem 0.5rem;
+    /* margin-left: 2rem; */
   }
 }
 
