@@ -1,6 +1,7 @@
 {
   "homepage": "https://geeky01adarsh.me/",
   "name": "geeky01adarsh-portfolio",
+  "base":"/portfolio/",
   "version": "0.1.0",
   "private": true,
   "author": {
