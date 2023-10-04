@@ -105,9 +105,7 @@ body::-webkit-scrollbar {
 
 @media screen and (min-width: 500px) and (max-width: 1000px) {
   .App > * {
-    transform: scale(0.65) !important;
-    padding: 0;
-    margin-left: -7rem !important;
+    
   }
 
   #proj-sec {

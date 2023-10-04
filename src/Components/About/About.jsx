@@ -44,7 +44,7 @@ const About = () => {
       <div className="about" id="about_sec">
         <div className="left">
           <span style={{ color: darkmode ? "white" : "" }}>About Me</span>
-          <span>
+          {/* <span> */}
             {/* <span className="greet">Hey hi✨</span>
              <span className="greet"> First of all thank you so much for your interest in my
             portfolio!!! </span>
@@ -66,7 +66,7 @@ const About = () => {
               Looking for Software Developer Engineer roles for backend
               development and full stack development roles.
             </span>
-          </span>
+          {/* </span> */}
           <a href={resume} download>
             <button className="button  a-btn">Get Resume</button>
           </a>

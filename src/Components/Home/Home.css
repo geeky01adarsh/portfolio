@@ -190,7 +190,7 @@
 
 @media screen and (min-width:500px) and (max-width:1000px){
     .home{
-        transform: scale(0.58) !important;
+        /* transform: scale(0.58) !important; */
       margin-top: -5px;
       margin-bottom: -5rem;
     }

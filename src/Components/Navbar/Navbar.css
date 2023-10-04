@@ -93,14 +93,14 @@
 
 @media screen and (min-width:500px) and (max-width:1000px){
     .n-wrapper{
-        padding-left: 5rem !important;
+        /* padding-left: 5rem !important; */
         /* border: 2px solid red; */
-        margin-top: 0.3rem;
-        margin-left: 5rem !important;
+        /* margin-top: 0.3rem; */
+        /* margin-left: 5rem !important; */
     }
-    .n-list{
+    /* .n-list{
         transform: scale(5) !important;
-    }
+    } */
     
    
 }
