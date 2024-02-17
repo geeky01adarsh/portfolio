@@ -1,6 +1,6 @@
 import React from "react";
 import "./Cards.css";
-import { themeContext } from '../../Context';
+import { themeContext } from '../../../Context';
 import {useContext} from 'react';
 
 const Card = ({ CardData }) => {

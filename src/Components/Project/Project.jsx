@@ -34,7 +34,7 @@ const Project = () => {
                   <a
                     href={project.github_link}
                     target="_blank"
-                    rel="noreferrer"
+                    // rel="noreferrer"
                   >
                     <img src={project.image} className="spr-img" alt="" />
                   </a>

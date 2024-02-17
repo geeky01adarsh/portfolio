@@ -18,6 +18,7 @@ type ProjectDetails= {
 const ProjectCard = ({ projectDetails }) => {
   return (
     <div className="projectCard">
+      {console.log(projectDetails)}
       <Tilt>
         <img
           className="projectCardImg"
@@ -33,12 +34,12 @@ const ProjectCard = ({ projectDetails }) => {
             <div className="projectCardDesc">{projectDetails.desc}</div>
             <div className="projectCardLink">
               <button className="projectCardButton">
-                <a className="projectCardGithub" href="">
+                <a className="projectCardGithub" href={projectDetails.github_link} target="_blank">
                   Github
                 </a>
               </button>
               <button className="projectCardButton">
-                <a className="projectCardLive" href="">
+                <a className="projectCardLive" href={projectDetails.live_link} target="_blank">
                   Live
                 </a>
               </button>

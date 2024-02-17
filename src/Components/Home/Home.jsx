@@ -23,7 +23,7 @@ import { Link } from "react-scroll";
 const skills = [
   {
     img: crown,
-    first: "MERN",
+    first: "Full Stack",
     last: "Developer",
   },
   {
@@ -81,12 +81,12 @@ const Home = () => {
   ];
 
   const devProf = [
-    "Coding Enthusiast💪",
+    "Coding Nerd💪",
     1800,
-    "MERN Developer😎",
+    "Full Stack Developer😎",
+    2000,
+    "Technical Content Writer📝",
     1800,
-    "Content Writer📝",
-    1200,
     "Competitive Programmer🤓",
     2000,
   ];
