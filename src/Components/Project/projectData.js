@@ -4,6 +4,13 @@ import yt_productivity from "../../assests/img/yt_productivity.jpg"
 
 export const frontEndProjects = [
     {
+        name:"YT Productivity",
+        github_link:"https://github.com/geeky01adarsh/yt-productivity",
+        live_link:"https://youtu.be/UUg652XnlFo?si=kp_wYUxeIJpJokDc",
+        desc:"A chrome extension that provides utility to bookmark videos and customize to any possible speed.",
+        image:yt_productivity
+    },
+    {
         name:"Portfolio",
         github_link:"https://github.com/geeky01adarsh/portfolio",
         live_link:"https://geeky01adarsh.netlify.app/",
@@ -17,13 +24,6 @@ export const frontEndProjects = [
         desc:"A chat app, that allows end-to-end conversation.",
         image:chatApp
     },
-    {
-        name:"YT Productivity",
-        github_link:"https://github.com/geeky01adarsh/yt-productivity",
-        live_link:"https://youtu.be/UUg652XnlFo?si=kp_wYUxeIJpJokDc",
-        desc:"A chrome extension that provides utility to bookmark videos and customize to any possible speed.",
-        image:yt_productivity
-    }
 ]
 
 export const backEndProjects = []
