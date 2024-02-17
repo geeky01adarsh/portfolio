@@ -8,7 +8,7 @@ const Profile = () => {
   const [carousalOffsetStyle, setCarousalOffsetStyle] = useState({});
 
   const handleCarousal = (index) => {
-    let offsetHeight = 360;
+    let offsetHeight = 450;
 
     let newCarousalOffset = {
       style: { transform: "translateY(" + index * offsetHeight * -1 + "px)" },

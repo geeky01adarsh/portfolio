@@ -23,6 +23,54 @@ const profileDetails = [
     ))}
   </div>,
 
+
+        /* WORK EXPERIENCE */
+  <div className="profile-screen-container" key="work-experience">
+  <div className="experience-container">
+    {experienceData.map((data) => {
+      return (
+        <div>
+          <ProfileHeading
+            heading={data.heading}
+            subHeading={data.subHeading}
+            fromDate={data.fromDate}
+            toDate={data.toDate}
+          />
+          <div className="experience-description">
+            <ul className="experience-description-list">
+              {data.description.map((desc) => {
+                return (
+                  <li className="experience-text">
+                    <span className="profile-description-text">
+                      {desc}
+                    </span>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+        </div>
+      );
+    })}
+    {/* <ProfileHeading
+      heading={"GeeksforGeeks"}
+      subHeading={"Technical Content Writer"}
+      fromDate={"Jan 2022"}
+      toDate={"June 2022"}
+    />
+    <div className="experience-description">
+      <span className="profile-description-text">
+        I have written around 23 articles and have improved around 60 articles
+        during this tenure of my internship.
+      </span>
+      <span className="profile-description-text">
+        I have written around 23 articles and have improved around 60 articles
+        during this tenure of my internship.
+      </span>
+    </div> */}
+  </div>
+</div>,
+
   /* PROGRAMMING SKILLS */
   <div
     className="profile-screen-container programming-skills-container"
@@ -42,7 +90,7 @@ const profileDetails = [
     ))}
   </div>,
 
-  /* PROJECTS */
+  /* Achievements */
   <div className="profile-screen-container" key="achievements">
     {achievementDetails.map((achievementsDetails, index) => (
       <ProfileHeading
@@ -66,52 +114,52 @@ const profileDetails = [
     ))}
   </div>,
 
-  /* WORK EXPERIENCE */
-  <div className="profile-screen-container" key="work-experience">
-    <div className="experience-container">
-      {experienceData.map((data) => {
-        return (
-          <div>
-            <ProfileHeading
-              heading={data.heading}
-              subHeading={data.subHeading}
-              fromDate={data.fromDate}
-              toDate={data.toDate}
-            />
-            <div className="experience-description">
-              <ul className="experience-description-list">
-                {data.description.map((desc) => {
-                  return (
-                    <li className="experience-text">
-                      <span className="profile-description-text">
-                        {desc}
-                      </span>
-                    </li>
-                  );
-                })}
-              </ul>
-            </div>
-          </div>
-        );
-      })}
-      {/* <ProfileHeading
-        heading={"GeeksforGeeks"}
-        subHeading={"Technical Content Writer"}
-        fromDate={"Jan 2022"}
-        toDate={"June 2022"}
-      />
-      <div className="experience-description">
-        <span className="profile-description-text">
-          I have written around 23 articles and have improved around 60 articles
-          during this tenure of my internship.
-        </span>
-        <span className="profile-description-text">
-          I have written around 23 articles and have improved around 60 articles
-          during this tenure of my internship.
-        </span>
-      </div> */}
-    </div>
-  </div>,
+  // /* WORK EXPERIENCE */
+  // <div className="profile-screen-container" key="work-experience">
+  //   <div className="experience-container">
+  //     {experienceData.map((data) => {
+  //       return (
+  //         <div>
+  //           <ProfileHeading
+  //             heading={data.heading}
+  //             subHeading={data.subHeading}
+  //             fromDate={data.fromDate}
+  //             toDate={data.toDate}
+  //           />
+  //           <div className="experience-description">
+  //             <ul className="experience-description-list">
+  //               {data.description.map((desc) => {
+  //                 return (
+  //                   <li className="experience-text">
+  //                     <span className="profile-description-text">
+  //                       {desc}
+  //                     </span>
+  //                   </li>
+  //                 );
+  //               })}
+  //             </ul>
+  //           </div>
+  //         </div>
+  //       );
+  //     })}
+  //     {/* <ProfileHeading
+  //       heading={"GeeksforGeeks"}
+  //       subHeading={"Technical Content Writer"}
+  //       fromDate={"Jan 2022"}
+  //       toDate={"June 2022"}
+  //     />
+  //     <div className="experience-description">
+  //       <span className="profile-description-text">
+  //         I have written around 23 articles and have improved around 60 articles
+  //         during this tenure of my internship.
+  //       </span>
+  //       <span className="profile-description-text">
+  //         I have written around 23 articles and have improved around 60 articles
+  //         during this tenure of my internship.
+  //       </span>
+  //     </div> */}
+  //   </div>
+  // </div>,
 
   /* Interests */
   <div className="profile-screen-container" key="interests">
