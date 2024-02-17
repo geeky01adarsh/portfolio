@@ -18,7 +18,6 @@ type ProjectDetails= {
 const ProjectCard = ({ projectDetails }) => {
   return (
     <div className="projectCard">
-      {console.log(projectDetails)}
       <Tilt>
         <img
           className="projectCardImg"
