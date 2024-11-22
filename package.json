@@ -1,11 +1,11 @@
 {
-  "homepage": "https://geeky01adarsh.github.io/portfolio",
+  
   "name": "geeky01adarsh-portfolio",
-  "base":"https://geeky01adarsh.github.io/",
   "version": "0.1.0",
   "private": true,
   "author": {
-    "name": "geeky01adarsh"
+    "name": "geeky01adarsh",
+    "email":"adarsh91094@gmail.com"
   },
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
