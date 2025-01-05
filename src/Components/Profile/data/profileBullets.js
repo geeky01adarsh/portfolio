@@ -7,10 +7,10 @@ import work_history from "../../../assests/img/work-history.svg";
 
 const profileBullets = [
   { label: "Education", logoSrc: education },
+  { label: "Experience", logoSrc: work_history },
   { label: "Programming Skills", logoSrc: programming_skills },
   { label: "Achievements", logoSrc: projects },
   { label: "Coding Profiles", logoSrc: programming_skills },
-  { label: "Experience", logoSrc: work_history },
   { label: "Hobbies", logoSrc: interests },
 ];
 

@@ -3,6 +3,13 @@ import "./Contact.css";
 import emailjs from "@emailjs/browser";
 import { themeContext } from "../../Context";
 import { RingLoader } from "react-spinners";
+import { motion } from "framer-motion"; 
+
+
+const VITE_EMAIL_SERVICE_ID = import.meta.env.VITE_EMAIL_SERVICE_ID
+const VITE_EMAIL_TEMPLATE_ID = import.meta.env.VITE_EMAIL_TEMPLATE_ID
+const VITE_EMAIL_PUBLIC_KEY = import.meta.env.VITE_EMAIL_PUBLIC_KEY
+
 
 const Contact = () => {
   const theme = useContext(themeContext);
@@ -14,24 +21,27 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     setLoader(true);
+    console.log("VITE_EMAIL_SERVICE_ID", VITE_EMAIL_SERVICE_ID);
+    console.log("VITE_EMAIL_TEMPLATE_ID", VITE_EMAIL_TEMPLATE_ID);
+    console.log("VITE_EMAIL_PUBLIC_KEY", VITE_EMAIL_PUBLIC_KEY);
     emailjs
       .sendForm(
-        "service_20pw79",
-        "template_wht4si9",
+        import.meta.env.VITE_EMAIL_SERVICE_ID,
+        import.meta.env.VITE_EMAIL_TEMPLATE_ID,
         form.current,
-        "ICWPxkP9vkbMVlnhQ"
+        import.meta.env.VITE_EMAIL_PUBLIC_KEY
       )
       .then(
         (result) => {
           console.log(result.text);
           setDone(true);
           setuser("");
-          form.current.reset();
+          alert("Email sent successfully!")
           setLoader(false);
+          form.current.reset();
         },
         (error) => {
           setLoader(false);
-          console.log(user);
           alert(
             "Hey " +
               user +

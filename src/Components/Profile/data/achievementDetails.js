@@ -1,25 +1,27 @@
 const achievementDetails = [
   {
-    title: "AIR 43 in CodeChef Starters",
-    duration: { fromDate: "2022" },
-    description:
-      "It was rated for Division 3, where I was able to solve 5 questions in around 90 minutes.",
-    subHeading: "I got a rank of 43 in CodeChef Starters 49.",
+    title: "Under AIR 50 4 times",
+    duration: { fromDate: "2022-Present" },
+    description:[
+      "Ranked 40 and 53 globally at CodeStudio’s Weekend Contest 93 and 94, between Oct to Dec 2024.",
+      "Ranked 43 and 39 at Codechef’s Starters in the month of July and December 2022.",
+    ],
+    subHeading: "",
   },
   {
     title: "AIR 48 in GPL",
     duration: { fromDate: "2022" },
     description:
       "This was a Technical Content Writing League hosted by GeeksforGeeks where the article with more engagement was held higher.",
-    subHeading: "My article on MATLAB helped me achieve this feat.",
+    subHeading: "",
   },
   {
     title: "Campus Mantri of the Month",
     duration: { fromDate: "2021" },
     description:
-      "I was honered with Campus Mantri of the Month for my performance in a campaign for awaring students more about GeeksforGeeks and and its free initiatives.",
+      "I was honered with Campus Mantri of the Month for my performance, surpassing the target by 3x, in a campaign for students getting onboarded to GeeksforGeeks courses.",
     subHeading:
-      "Campus Mantri of the Month October 2021 for surpassing the target provided.",
+      "",
   },
   
 ];
