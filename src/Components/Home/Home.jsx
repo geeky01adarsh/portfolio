@@ -178,7 +178,7 @@ const Home = () => {
 
                     {/* glass emoji */}
                     <motion.img
-                        initial={{ left: "-30%" }}
+                        initial={{ left: "-10%" }}
                         whileInView={{ left: "-10%" }}
                         transition={transition}
                         className="smart"
@@ -188,7 +188,7 @@ const Home = () => {
 
                     {/* MERN Developer Div */}
                     <motion.div
-                        initial={{ left: "100%" }}
+                        initial={{ left: "65%" }}
                         whileInView={{ left: "65%" }}
                         transition={transition}
                         className="floating-div1"
@@ -198,7 +198,7 @@ const Home = () => {
 
                     {/* Competitive Programmer */}
                     <motion.div
-                        initial={{ left: "-35%" }}
+                        initial={{ left: "-5%" }}
                         whileInView={{ left: "-5%" }}
                         transition={transition}
                         className="floating-div2"
@@ -208,7 +208,7 @@ const Home = () => {
 
                     {/* Technical Content Writer */}
                     <motion.div
-                        initial={{ right: "-10%" }}
+                        initial={{ right: "-0%" }}
                         whileInView={{ right: "0%" }}
                         transition={transition}
                         className="floating-div3"
