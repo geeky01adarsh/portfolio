@@ -33,8 +33,8 @@ const skills = [
     },
     {
         img: memo,
-        first: "Technical",
-        last: "Content Writer",
+        first: "C++",
+        last: "Developer😎",
     },
 ];
 
