@@ -56,11 +56,18 @@ const About = () => {
                         className="greet"
                         style={{ color: darkmode ? "#ffffffc7" : "" }}
                     >
-                        A full stack web developer with expertise in MERN Stack
-                        development. I love building backend-rich websites. I
-                        have around 1 year of experience. I am looking for
-                        Software Developer Engineer roles for backend
-                        development and full stack development roles.
+                        Hi, I’m Adarsh Navneet Sinha — a backend-focused
+                        full-stack developer with around 2.5 years of
+                        experience. I currently work as an R\&D Engineer at
+                        ClearTrail Technologies, where I’ve been building
+                        protocol analyzers, working with C++, Node.js, and deep
+                        packet inspection. I’ve also developed full-stack
+                        products like Mini FM and InstiSync, and have hands-on
+                        experience with the MERN stack, DevOps, and AWS. Having
+                        worked in both corporate and startup settings, I bring
+                        product ownership, system design, and CI/CD expertise.
+                        I’m currently upskilling in DSA, AI, and security to
+                        transition into a senior engineering role soon.
                     </span>
                     {/* </span> */}
                     <a
