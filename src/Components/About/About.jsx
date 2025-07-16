@@ -17,7 +17,7 @@ const CardData = [
     {
         emoji: Glasses,
         title: "Competitive Programmer",
-        skills: ["LeetCode: 1830+,", "CodeChef: 3*,", "Codeforces: Pupil"],
+        skills: ["LeetCode: 1880+,", "CodeChef: 3*,", "Codeforces: Pupil"],
     },
     {
         emoji: Humble,
@@ -58,20 +58,20 @@ const About = () => {
                     >
                         Hi, I’m Adarsh Navneet Sinha — a backend-focused
                         full-stack developer with around 2.5 years of
-                        experience. I currently work as an R\&D Engineer at
-                        ClearTrail Technologies, where I’ve been building
-                        protocol analyzers, working with C++, Node.js, and deep
-                        packet inspection. I’ve also developed full-stack
-                        products like Mini FM and InstiSync, and have hands-on
-                        experience with the MERN stack, DevOps, and AWS. Having
-                        worked in both corporate and startup settings, I bring
-                        product ownership, system design, and CI/CD expertise.
-                        I’m currently upskilling in DSA, AI, and security to
-                        transition into a senior engineering role soon.
+                        experience. I currently work as a backend enginner,
+                        focused on R&D Engineer at ClearTrail Technologies,
+                        where I’ve been building protocol analyzers, working
+                        with C++, Node.js, Python, and deep packet inspection.
+                        I’ve also developed full-stack products like Mini FM and
+                        InstiSync, and have hands-on experience with the MERN
+                        stack, DevOps, and AWS. Having worked in both corporate
+                        and startup settings, I bring product ownership, system
+                        design, and CI/CD expertise. I’m looking for sernior
+                        developer roles.
                     </span>
                     {/* </span> */}
                     <a
-                        href="https://drive.google.com/file/d/1150Df3aqvAKJIpSqfSUHrIyUWrBbKc0O/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1yBcyUUoxDh9u-q7zubXi01s5Qg50U3ob/view?usp=drive_link"
                         target="_blank"
                     >
                         <button className="button  a-btn">Get Resume</button>
