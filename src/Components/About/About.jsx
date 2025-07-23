@@ -22,7 +22,7 @@ const CardData = [
     {
         emoji: Humble,
         title: "Content Writer",
-        skills: ["Technical Content Writer,", "Book Reviewer,", "Travel Blogs"],
+        skills: ["Technical Content Writer"],
     },
 ];
 
