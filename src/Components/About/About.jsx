@@ -57,7 +57,7 @@ const About = () => {
                         style={{ color: darkmode ? "#ffffffc7" : "" }}
                     >
                         Hi, I’m Adarsh Navneet Sinha — a backend-focused
-                        full-stack developer with around 2.5 years of
+                        full-stack developer with around 2.5+ years of
                         experience. I currently work as a backend enginner,
                         focused on R&D Engineer at ClearTrail Technologies,
                         where I’ve been building protocol analyzers, working
